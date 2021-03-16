@@ -2,8 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import '../css/Home.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+
+    AOS.init();
+    AOS.refresh();
+
     return (
         <div className="bs-all">
             <Header></Header>
@@ -18,7 +24,13 @@ function Home() {
                                 <span className="blog-slider__code">17 MAY 2021</span>
                                 <div className="blog-slider__title">Time Slip: go back</div>
                                 <div className="blog-slider__text">We want to go back to our daily routine of not wearing a mask. </div>
-                                <Link className="blog-slider__button" to = "/Exhibition">VIEW MORE</Link>
+                                <Link 
+                                data-aos="zoom-in"
+                                data-aos-delay="50"
+                                data-aos-duration="800"
+                                data-aos-easing="ease-in-out"
+                                className="blog-slider__button"
+                                to = "/Exhibition">VIEW MORE</Link>
                             </div>
                         </div>
                         {/* <div className="blog-slider__item swiper-slide">

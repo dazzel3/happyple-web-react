@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'poppinsM';
+    src: url('../font/Poppins-Medium.ttf');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -40,8 +45,8 @@
     transition: 0.3s;
     margin: 0 6px;
     z-index: 1;
-    /* font-family: "DM Sans", sans-serif; */
     font-weight: 500;
+    font-family: 'poppinsM';
     font-size: 14px;
     position: relative;
 }

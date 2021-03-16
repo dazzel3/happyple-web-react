@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Gosanja';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/Gosanja.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UhBeeSeulvely';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
 .bs-all {
     max-width: 1920px;
     height: 100%;
@@ -9,13 +37,28 @@
 }
 
 .about {
-    height: 88vh;
-    width: 100%;
+    min-height: 88vh;
+    height: fit-content;
+    width: 80%;
+    margin-top: 2.8rem;
+    background-color: white;
+    border-radius: 28px;
+    padding: 6%;
 }
 
 .about-text {
     color: #5a5a5a;
-    font-size: 22px;
-    font-weight: 700;
-    margin: 2rem;
+    font-size: 70px;
+    font-family: 'UhBeeSeulvely';
+    /* font-family: 'Gosanja'; */
+    /* margin: 2rem; */
+}
+
+.text {
+    font-size: 18px;
+    color: #5a5a5a;
+    font-family: 'IBMPlexSansKR-Light';
+    line-height: 1.5em;
+    margin-top: 1.6rem;
+    /* text-align: center; */
 }

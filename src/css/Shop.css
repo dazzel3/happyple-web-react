@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'poppinsM';
+  src: url('../font/Poppins-Medium.ttf');
+}
+
 .bs-all {
     max-width: 1920px;
     height: 100%;
@@ -17,5 +22,6 @@
     color: #5a5a5a;
     font-size: 22px;
     font-weight: 700;
+    font-family: 'poppinsM';
     margin: 2rem;
 }
