@@ -1,0 +1,21 @@
+.bs-all {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0c3fc;
+    background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+}
+
+.shop {
+    height: 88vh;
+    width: 100%;
+}
+
+.shop-text {
+    color: #5a5a5a;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 2rem;
+}
