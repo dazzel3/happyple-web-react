@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import '../css/Home.css';
+import mainimg from '../assets/comming_soon.png';
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
                     <div className="blog-slider__wrp swiper-wrapper">
                         <div className="blog-slider__item swiper-slide">
                             <div className="blog-slider__img">
-                                <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt=""/>
+                                <img className="mainimg" src={mainimg} alt=""/>
                             </div>
                             <div className="blog-slider__content">
                                 <span className="blog-slider__code">17 MAY 2021</span>
