@@ -32,6 +32,7 @@
     max-width: fit-content;
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .blog-slider {
@@ -45,6 +46,7 @@
     border-radius: 25px;
     height: 400px;
     transition: all 0.3s;
+    
 }
 
 @media screen and (max-width: 992px) {
