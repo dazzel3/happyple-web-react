@@ -1,0 +1,22 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 57px;
+    z-index: 1;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    animation: showIcon 2s;
+}
+
+@keyframes showIcon {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
