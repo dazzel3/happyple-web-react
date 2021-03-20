@@ -5,7 +5,7 @@
     z-index: 1;
 }
 
-img {
+.gotop {
     width: 40px;
     height: auto;
     animation: showIcon 2s;

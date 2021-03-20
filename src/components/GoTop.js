@@ -28,7 +28,7 @@ function GoTop() {
     <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
-          <img src={gotop}/>
+          <img className="gotop" src={gotop}/>
         </div>}
     </div>
   );
