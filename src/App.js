@@ -4,6 +4,7 @@ import About from './components/About';
 import Exhibition from './components/Exhibition';
 import Home from './components/Home';
 import Shop from './components/Shop';
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/about" component={About} exact></Route>
       <Route path="/exhibition" component={Exhibition} exact></Route>
       <Route path="/shop" component={Shop} exact></Route>
+      <Route path="/FAQ" component={FAQ} exact></Route>
       <Route render= {({location}) => <div>
           <h2> 이 페이지는 존재하지 않습니다.</h2>
           <p>{location.pathname}</p>

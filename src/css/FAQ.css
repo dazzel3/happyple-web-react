@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'poppinsM';
+    src: url('../font/Poppins-Medium.ttf');
+  }
+  
+  .bs-all {
+      max-width: 1920px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #e0c3fc;
+      background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+  }
+  
+  .FAQ {
+      height: 88vh;
+      width: 100%;
+  }
+  
+  .FAQ-text {
+      color: #5a5a5a;
+      font-size: 22px;
+      font-weight: 700;
+      font-family: 'poppinsM';
+      margin: 2rem;
+  }
