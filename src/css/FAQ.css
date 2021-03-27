@@ -1,27 +1,72 @@
 @font-face {
     font-family: 'poppinsM';
     src: url('../font/Poppins-Medium.ttf');
-  }
+}
+
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
-  .bs-all {
-      max-width: 1920px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #e0c3fc;
-      background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
-  }
+.bs-all {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0c3fc;
+    background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+}
   
-  .FAQ {
-      height: 88vh;
-      width: 100%;
-  }
+.FAQ {
+    overflow: hidden;
+    min-height: 80.7vh;
+    height: fit-content;
+    width: 75%;
+    margin-top: 2.8rem;
+}
   
-  .FAQ-text {
-      color: #5a5a5a;
-      font-size: 22px;
-      font-weight: 700;
-      font-family: 'poppinsM';
-      margin: 2rem;
-  }
+.FAQ-text {
+    color: #5a5a5a;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'poppinsM';
+    margin: 2rem;
+}
+
+.FAQ-container {
+    background-color: white;
+    padding: 5% 5% 11% 5%;
+    width: auto;
+    height: fit-content;
+    min-height: 81vh;
+    border-radius: 28px 28px 0 0;
+    text-align: center;
+}
+
+.question {
+    color: rgb(34, 34, 34);
+    font-size: 28px;
+    font-family: 'SDSamliphopangche_Basic';
+    margin-top: 2rem;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.answer {
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    font-family: 'IBMPlexSansKR-Light';
+    line-height: 1.5em;
+    margin-top: 1rem;
+    text-align: center;
+}

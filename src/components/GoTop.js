@@ -6,7 +6,7 @@ function GoTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.pageYOffset > 270) {
+    if (window.pageYOffset > 100) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
