@@ -41,8 +41,8 @@ function About() {
                         data-aos-delay="1000"
                         data-aos-duration="1000"
                         className="first-details">
-                        행복을 전하는 해피플은 interaction기반의 온라인 전시회 플랫폼입니다.<br />
-                        코로나19로 가지 못한 전시회를 여기, 해피플에서 즐겨보세요.
+                        해피플은 interaction기반의 미디어아트 온라인 전시회 플랫폼입니다.<br />
+                        코로나19로 직접 가지 못한 전시회를 여기, 해피플에서 즐겨보세요.
                     </div>  
                 </div>
                 <div
@@ -55,16 +55,16 @@ function About() {
                         data-aos-delay="200"
                         data-aos-duration="1000"
                         className="second-text">
-                        시간, 공간, 돈의 제약없이<br />
-                        누구나 상호작용할 수 있어요.
+                        화면 속의 예술,<br />
+                        미디어아트를 웹에서 즐겨보세요.
                     </div>
                     <div 
                         data-aos="fade-up"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="second-details">
-                        상호작용이 가능한 전시회, 해피플에서 경험해보세요.<br />
-                        언제 어디서나 전시회를 보고 느끼며 문화생활을 즐겨보세요.
+                        코로나19로 인해 가지 못했던 미디어아트 전시회를 해피플에서 경험해보세요. <br />
+                        오프라인 전시회와 또 다른 매력을 느낄 수 있을거에요.
                     </div>
                     <img 
                         data-aos="fade-up"
@@ -78,16 +78,16 @@ function About() {
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         className="third-text">
-                        나의 전시회를 생동감 있게,<br />
-                        모두가 즐길 수 있게 하고 싶다면?
+                        보기만 하는 전시가 아닌, <br />
+                        작품과 상호작용하며 움직이는 전시를 경험하세요.
                     </div>
                     <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="third-details">
-                        전시회에 담고 싶은 이야기를 들려주세요. <br />
-                        해피플과 함께 이야기를 생생하게 담은 인터랙션 전시회를 만들어봐요.
+                        누가, 어떻게 전시를 즐기냐에 따라 미디어아트 작품의 감상이 달라지기도 하죠. <br />
+                        오프라인 전시회가 열리기 힘든 상황을 대신해 해피플이 이런 동적인 전시회를 개최합니다.
                     </div>
                     <img 
                         data-aos="fade-up"
@@ -97,14 +97,95 @@ function About() {
                 </div>
                 <div className="fourth">
                     <div 
+                        data-aos="zoom-in-right"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        className="fourth-text">
+                        나만의 감성으로 전시의 여운을 남겨보세요.
+                    </div>
+                    <div 
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="fourth-details">
+                        오프라인 전시회에서 사진을 찍듯이 해피플 전시회에서는 나만의 이미지를 만들 수 있어요. <br />
+                        전시회에서 얻은 이미지를 SNS에 기록해봐요. <br />
+                        전시를 추억하고 싶다면, shop을 방문해 굿즈를 구매하세요.
+                    </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-lang" src={lang} />
+                </div>
+                <div className="fifth">
+                    <div 
+                        data-aos="zoom-in-right"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        className="fifth-text">
+                        물론 미디어아트를 직접 전시하는 것도 가능하죠.
+                    </div>
+                    <div 
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="fifth-details">
+                        비용은 적게, 시간과 장소의 제한 없이 전시회를 열어보세요. <br />
+                        오직 해피플에서만 가능합니다. 궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
+                    </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-lang" src={lang} />
+                </div>
+                <div className="sixth">
+                    <div 
                         data-aos="zoom-in-down"
                         data-aos-delay="200"
                         data-aos-duration="1000"
-                        className="fourth-text">
-                        해피플에 오신 여러분 환영합니다. <br />
-                        저희를 소개할게요.
+                        className="seventh-text">
+                        해피플을 즐길 수 있는 두가지 방법.
                     </div>
-                    <div className="fourth-details">
+                    <div className="sixth-details">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="500"
+                            data-aos-duration="1000"
+                            className="about-intro">
+                            <div className="way">
+                                👍 오프라인 전시회 대신 해피플을 방문하세요.
+                            </div>
+                            <div className="way-details">
+                                - 시간, 장소의 제약없이 즐길 수 있는 미디어아트 전시회, 상상만 해도 좋지 않나요? <br />
+                                - 해피플이 여러분에게 행복한 시간을 선물할게요.
+                            </div>
+                        </div>
+                        <div 
+                            data-aos="fade-up"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="about-intro">
+                            <div className="way">
+                                👍 미디어아트 작품을 해피플에 전시해보세요.
+                            </div>
+                            <div className="way-details">
+                                - 오프라인으로 전시회 개최에 한계를 느낀다면, 해피플에게 의뢰해주세요. <br />
+                                - 해피플이 작가님의 작품을 더욱 풍요롭게 만들어주겠습니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="seventh">
+                    <div 
+                        data-aos="zoom-in-down"
+                        data-aos-delay="200"
+                        data-aos-duration="1000"
+                        className="seventh-text">
+                        해피플을 만든 사람들.
+                    </div>
+                    <div className="seventh-details">
                         <div 
                             data-aos="fade-up"
                             data-aos-delay="500"

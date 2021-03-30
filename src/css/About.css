@@ -62,7 +62,7 @@
     min-height: 80.7vh;
     height: fit-content;
     width: 75%;
-    margin-top: 2.8rem;
+    margin-top: 1.8rem;
 }
 
 .first {
@@ -105,11 +105,12 @@
 }
 
 .first-details {
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(51, 51, 51);
     font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
     line-height: 1.5em;
-    margin-top: 2.6rem;
+    margin-top: 3.6rem;
 }
 
 .about-kid {
@@ -132,7 +133,7 @@
 
 .second-text {
     color: rgb(34, 34, 34);
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'SDSamliphopangche_Basic';
     margin-top: 2rem;
     line-height: 1.3em;
@@ -141,8 +142,9 @@
 
 .second-details {
     font-size: 15px;
-    color: rgb(51, 51, 51);
+    color: rgb(129, 129, 129);
     font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
     text-align: center;
@@ -165,7 +167,7 @@
 
 .third-text {
     color: rgb(34, 34, 34);
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'SDSamliphopangche_Basic';
     margin-top: 2rem;
     margin-left: 2rem;
@@ -174,8 +176,9 @@
 
 .third-details {
     font-size: 15px;
-    color: rgb(51, 51, 51);
+    color: rgb(129, 129, 129);
     font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
     margin-left: 2rem;
@@ -190,23 +193,118 @@
 }
 
 .fourth {
-    background-color:white;
+    background-color: white;
     padding: 5%;
     width: auto;
-    height: 80vh;
+    height: 70vh;
     min-height: 60vh;
 }
 
 .fourth-text {
     color: rgb(34, 34, 34);
-    font-size: 28px;
+    font-size: 34px;
+    font-family: 'SDSamliphopangche_Basic';
+    margin-top: 2rem;
+    margin-left: 2rem;
+    line-height: 1.3em;
+}
+
+.fourth-details {
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+    font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.fifth {
+    background-color: rgb(250, 250, 250);
+    padding: 5%;
+    width: auto;
+    height: 70vh;
+    min-height: 60vh;
+}
+
+.fifth-text {
+    color: rgb(34, 34, 34);
+    font-size: 34px;
+    font-family: 'SDSamliphopangche_Basic';
+    margin-top: 2rem;
+    margin-left: 2rem;
+    line-height: 1.3em;
+}
+
+.fifth-details {
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+    font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.sixth {
+    background-color: white;
+    padding: 5%;
+    width: auto;
+    height: 70vh;
+    min-height: 60vh;
+}
+
+.sixth-text {
+    color: rgb(34, 34, 34);
+    font-size: 33px;
     font-family: 'SDSamliphopangche_Basic';
     margin-top: 2rem;
     line-height: 1.3em;
     text-align: center;
 }
 
-.fourth-details {
+.sixth-details {
+    line-height: 1.5em;
+    margin-top: 2.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.way {
+    font-family: 'SDSamliphopangche_Basic';
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.way-details {
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 1rem;
+}
+
+.seventh {
+    background-color: rgb(250, 250, 250);
+    padding: 5%;
+    width: auto;
+    height: 80vh;
+    min-height: 60vh;
+}
+
+.seventh-text {
+    color: rgb(34, 34, 34);
+    font-size: 33px;
+    font-family: 'SDSamliphopangche_Basic';
+    margin-top: 2rem;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.seventh-details {
     line-height: 1.5em;
     margin-top: 1rem;
     text-align: center;
@@ -235,8 +333,9 @@
 
 .about-bio {
     font-size: 14px;
-    color: rgb(51, 51, 51);
+    color: rgb(129, 129, 129);
     font-family: 'IBMPlexSansKR-Light';
+    font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
 }
