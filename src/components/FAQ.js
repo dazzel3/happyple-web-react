@@ -14,7 +14,11 @@ function FAQ() {
         <div className="bs-all">
             <Header></Header>
             <div className="FAQ">
-                <div className="FAQ-container">
+                <div 
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000" 
+                    className="FAQ-container">
                     <div className="FAQ-header">
                         해피플에게 많이 묻는 질문들
                     </div>
@@ -53,10 +57,16 @@ function FAQ() {
                         <div className="answer">
                             😄  맞아요. 인터넷 사용이 원활한 환경에서 누구나 해피플의 서비스를 이용할 수 있어요.
                         </div>
-                    <div className="qna-button">
+                    </div>
+                    <div 
+                        data-aos="zoom-in"
+                        data-aos-delay="50"
+                        data-aos-duration="800"
+                        data-aos-easing="ease-in-out" 
+                        className="qna-button">
                         질문하기
                     </div>
-                    </div>
+                    
                 </div>
             </div>
             <GoTop />
