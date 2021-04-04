@@ -1,0 +1,20 @@
+.kill-virus {
+    width: fit-content;
+    height: fit-content;
+}
+
+.kill-btn {
+    width: 5.5vw;
+    height: 10vh;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    top: 13vh;
+    left: 2.5vh;
+    z-index: 1;
+}
+
+img {
+    width: 8vw;
+    height: auto;
+}

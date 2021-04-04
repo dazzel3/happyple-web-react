@@ -30,7 +30,7 @@ function Home() {
                                 data-aos-duration="800"
                                 data-aos-easing="ease-in-out"
                                 className="blog-slider__button"
-                                to = "/Exhibition">VIEW MORE</Link>
+                                to = "/exhibition-timeslip">VIEW MORE</Link>
                             </div>
                         </div>
                         {/* <div className="blog-slider__item swiper-slide">

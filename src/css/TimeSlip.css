@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'poppinsM';
+    src: url('../font/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: '116watermelon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116watermelon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretty_Left_handed';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Pretty_Left_handed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ts-all {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+}
+
+.timeslip {
+    height: 88vh;
+    width: 100%;
+}
+
+.ts-title {
+    z-index: 1;
+    color: transparent;
+    font-size: 120px;
+    font-family: '116watermelon';
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.ts-title::before {
+    content: "타임슬립";
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-right: 7px solid white;
+    color: #fff;
+    text-shadow: 3px 3px 3px #e0c3fc;
+    animation: typing 4s steps(4) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    40% {
+        width: 100%;
+    }
+    90%{
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ts-slide {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+}
+
+.year-container {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 100;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.year-container--top-first {
+    position: fixed;
+    top: 75px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.year-container--top-second {
+    position: fixed;
+    top: 0;
+}
+
+.year-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #5a5a5a;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-family: 'poppinsM';
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.year-tab:hover {
+    color: white;
+    background: #8ec5fc;
+    transition: all 0.5s ease;
+}
+
+.year-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #8ec5fc;
+    transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+    .year-tab {
+        font-size: 1rem;
+    }
+}
+
+#tab-20 {
+    position: relative;
+    overflow: hidden;
+}
+
+.virus-text {
+    font-family: 'Pretty_Left_handed';
+    font-size: 3.5vh;
+    color:white;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.virus1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    animation: virusMove 3s ease-in-out infinite;
+}
+
+.virus2 {
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    animation: virusMove2 3s ease-in-out infinite;
+}
+
+.virus3 {
+    position: absolute;
+    top: 45%;
+    left: 39%;
+    animation: virusMove2 3s ease-in-out infinite;
+}
+
+.virus4 {
+    position: absolute;
+    top: 65%;
+    right: 35%;
+    animation: virusMove 3s ease-in-out infinite;
+}
+
+.virus5 {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    animation: virusMove2 3s ease-in-out infinite;
+}
+
+.virus6 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    animation: virusMove2 3s ease-in-out infinite;
+}
+
+.virus7 {
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    animation: virusMove 3s ease-in-out infinite;
+}
+
+.virus8 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    animation: virusMove 3s ease-in-out infinite;
+}
+
+@keyframes virusMove {
+    30% {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    65% {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    100% {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+}
+
+@keyframes virusMove2 {
+    40% {
+        margin-bottom: 6px;
+        margin-left: 5px;  
+    }
+    74% {
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    100% {
+        margin-right: 0;
+        margin-top: 0;   
+    }
+}
