@@ -78,6 +78,10 @@
     color: #5a5a5a;
 }
 
+.MenuItem:active {
+    color: #5a5a5a !important; 
+}
+
 .MenuIndicator {
     position: absolute;
     left: 0;
