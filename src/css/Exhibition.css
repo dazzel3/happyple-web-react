@@ -27,7 +27,6 @@
 }
 
 .ex-dropdown {
-    position: relative;
     z-index: 2;
     float: right;
     position: relative;
@@ -35,10 +34,10 @@
 }
 
 .ex-dropbtn {
-    width: 8.2vw;
-    height: 5.9vh;
+    width: 8vw;
+    height: 5.7vh;
     font-family: 'IBMPlexSansKR-Light';
-    font-size: 0.88rem;
+    font-size: 2.2vh;
     font-weight: 800;
     background-color: rgb(255, 255, 255, 0.42);
     color: rgb(68, 68, 68);
@@ -60,21 +59,21 @@
 
 .ex-dropdown-content {
     font-family: 'IBMPlexSansKR-Light';
-    font-size: 0.88rem;
+    font-size: 2.2vh;
     font-weight: 800;
     text-align: center;
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255, 0.5);
     color: rgb(68, 68, 68);
-    min-width: 8.2vw;
+    min-width: 8vw;
     border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .ex-dropdown-content a {
     color: rgb(68, 68, 68);
-    padding: 1vh 0.8vw;
+    padding: 1.3vh 0.8vw;
     text-decoration: none;
     display: block;
     max-height: 5.9vh;
@@ -171,24 +170,26 @@
 }
 
 .card .info button {
-    width: 6.8vw;
-    padding: 0.6rem;
+    width: 8vw;
     outline: none;
     border: none;
-    border-radius: 3px;
+    padding: 10px 15px;
+    border-radius: 50px;
     background: white;
     color: black;
-    font-weight: bold;
     cursor: pointer;
-    transition: 0.4s ease;
     font-weight: 500;
     font-family: 'poppinsM';
-    margin-top: 3vh;
+    margin-top: 2.5vh;
+    float: right;
 }
 
-.card .info button:hover {
-    background: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+#open-btn:hover {
+    background-image: linear-gradient(147deg, #9d69ce 0%, #70a5da 74%);
     color: white;
 }
 
-  
+#close-btn:hover {
+    background-color: #5a5a5a;
+    color: white;
+}
