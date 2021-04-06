@@ -27,6 +27,7 @@
 }
 
 .ex-dropdown {
+    position: relative;
     z-index: 2;
     float: right;
     position: relative;
@@ -43,7 +44,7 @@
     color: rgb(68, 68, 68);
     border-color: white;
     border: none;
-    border-radius: 12px;
+    border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 7px 13px 0px rgba(58, 57, 57, 0.2);
 
@@ -67,7 +68,7 @@
     background-color: rgb(255, 255, 255, 0.5);
     color: rgb(68, 68, 68);
     min-width: 8.2vw;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -82,10 +83,11 @@
 
 .ex-dropdown-content a:hover {
     background-color: rgb(255, 255, 255, 0.88);
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .wrapper {
+    position: relative;
     z-index: 1;
     display: flex;
     width: 88%;
@@ -111,7 +113,7 @@
 }
 
 .card:hover {
-    transform: translateY(20px);
+    transform: translateY(15px);
 }
 
 .card:hover:before {
