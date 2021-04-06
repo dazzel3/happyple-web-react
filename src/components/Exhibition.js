@@ -3,6 +3,9 @@ import Header from './Header';
 import '../css/Exhibition.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import comming_soon from '../assets/comming_soon.png'
+import lang from '../assets/lang_black.png'
+
 
 function Exhibition() {
 
@@ -11,13 +14,45 @@ function Exhibition() {
 
     return (
         <div className="bs-all">
+            
             <Header></Header>
             <div className="exhibition">
-                <div
-                    data-aos="flip-down"
-                    data-aos-delay="50"
-                    data-aos-duration="1000"
-                    className="exhibition-text">Exhibition Page is comming soon...</div>
+                <div className="exhibition-text">현재 해피플에서 진행되는 전시들 </div>
+                <div className="ex-dropdown">
+                    <button className="ex-dropbtn"> 최신순</button>
+                    <div className="ex-dropdown-content">
+                        <a href="#"> 최신순 </a>
+                        <a href="#"> 인기순 </a>
+                        <a href="#"> 조회순 </a>
+                    </div>
+                </div>
+                <div className="wrapper">
+                    <div class="card">
+                        <img className="exhibition-lang" src={lang} />
+                        <div class="info">
+                            <h1>Back slip</h1>
+                            <p>I want to go back before corona19 virus. i will go jeju-island at july.</p>
+                            <button>OPEN</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img className="exhibition-comming_soon" src={comming_soon} />
+                        <div class="info">
+                        <h1>Road</h1>
+                        <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+                        <button>OPEN</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img className="exhibition-comming_soon" src={comming_soon} />
+                        <div class="info">
+                            <h1>Protester</h1>
+                            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+                            <button>OPEN</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

@@ -39,7 +39,7 @@
 }
 
 .logo {
-    width: 120px;
+    width: 8.8vw;
     height: fit-content;
 }
 
@@ -105,11 +105,12 @@
     border-radius: 5px;
     color:#fff;
     background-color: transparent;
-    width: 87px;
+    width: 7.2vw;
     height: fit-content;
     margin-top: 2.5%;
     margin-right: 2.2%;
     box-shadow: 1.5px 1.5px rgba(34, 35, 58, 0.2);
+    cursor: pointer;
 }
 
 .request-btn:hover {
