@@ -12,6 +12,7 @@
     top: 13vh;
     left: 2.5vh;
     z-index: 1;
+    cursor: pointer;
 }
 
 img {
