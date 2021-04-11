@@ -19,8 +19,7 @@ function TimeSlip() {
         <div className="ts-all">
             <Header></Header>
             <div className="timeslip">
-                <div className="ts-sub"></div>
-                <div className="ts-title">타임슬립</div>
+                <div className="ts-title-container"><div className="ts-title">타임슬립</div></div>
             </div>
             <div class="year-container">
                 <a class="year-tab" href="#tab-20">2020'</a>

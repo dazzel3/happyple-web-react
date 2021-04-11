@@ -37,10 +37,18 @@
     width: 100%;
 }
 
+.ts-title-container {
+    background-image: url('../assets/ex-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: center center;
+    width: 99vw;
+    height: 88vh;
+}
+
 .ts-title {
     z-index: 1;
     color: transparent;
-    font-size: 120px;
+    font-size: 143px;
     font-family: '116watermelon';
     text-align: center;
     white-space: nowrap;
