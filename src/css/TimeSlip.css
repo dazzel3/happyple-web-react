@@ -17,6 +17,12 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .ts-all {
     max-width: 1920px;
     height: 100%;
@@ -87,7 +93,6 @@ a {
     flex-direction: row;
     position: sticky;
     top: 0;
-    bottom: 0;
     width: 100%;
     height: 65px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -146,24 +151,62 @@ a {
     overflow: hidden;
 }
 
-.virus-text {
-    font-family: 'Pretty_Left_handed';
-    font-size: 3.5vh;
+.work {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 4.7vh;
     color:white;
-    text-align: center;
-    margin-top: 8rem;
+    /* text-align: center; */
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.work-details {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 2.5vh;
+    color:white;
+    /* text-align: center; */
+    margin-top: 0.6rem;
+    margin-left: 5rem;
+}
+
+.work-txt {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    font-size: 9.3vh;
+    color:white;
+    margin-top: 12rem;
+    margin-left: 6rem;
+    animation: op 5s infinite;
+}
+
+@keyframes op {
+    0% {
+        opacity: 0.2;
+    }
+    80% {
+        opacity: 0.2;
+    }
+    87% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.2;
+    }
+
 }
 
 .virus1 {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 20%;
     animation: virusMove 3s ease-in-out infinite;
 }
 
 .virus2 {
     position: absolute;
-    top: 25%;
+    top: 28%;
     right: 30%;
     animation: virusMove2 3s ease-in-out infinite;
 }
@@ -242,4 +285,56 @@ a {
         margin-right: 0;
         margin-top: 0;   
     }
+}
+
+#tab-10 {
+    position: relative;
+    overflow: hidden;
+}
+
+.phone-img {
+    background-image: url('../assets/smartphone.png');
+    background-repeat: no-repeat;
+    background-attachment:  center center;
+    width: 350px;
+    height: 490px;
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+}
+
+#slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 357px;
+    width: 227px;
+    margin-left: 0.8rem;
+    /* margin-bottom: rem; */
+    margin-top: 3.34rem;
+}
+  
+.slide-wrapper {
+    width: 908px;
+    animation: slide 16s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 357px;
+    width: 227px;
+}
+
+.slide-img {
+    height: 357px;
+    width: 227px;
+}
+
+@keyframes slide {
+    30% {margin-left: 0px;}
+    40% {margin-left: -227px;}
+    50% {margin-left: -227px;}
+    60% {margin-left: -454px;}
+    70% {margin-left: -454px;}
+    80% {margin-left: -681px;}
+    90% {margin-left: -681px;}
 }
