@@ -266,6 +266,16 @@ a {
     animation: virusMove 3s ease-in-out infinite;
 }
 
+.work-sub {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 2vh;
+    color:rgb(139, 139, 139);
+    margin-top: 1rem;
+    margin-right: 4rem;
+    text-align: right;
+}
+
 @keyframes virusMove {
     30% {
         margin-left: 5px;

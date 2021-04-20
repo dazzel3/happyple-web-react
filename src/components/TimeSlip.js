@@ -111,6 +111,11 @@ function TimeSlip() {
                     className="virus8">
                     <Virus2></Virus2>
                 </div>
+                <div 
+                    data-aos="fade-left"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                    className="work-sub">* 바이러스를 클릭해보세요.</div>
             </div>
             <div className="ts-slide tab-10" id="tab-10">
                 <div 
