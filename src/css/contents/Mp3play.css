@@ -1,0 +1,23 @@
+.mp3playcontainer{
+    z-index: 2;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.playbtn{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.4vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.playbtn:hover{
+    opacity: 1;
+    cursor: pointer;
+}

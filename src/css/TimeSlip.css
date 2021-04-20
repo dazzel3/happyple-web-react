@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'poppinsL';
+    src: url('../font/Poppins-Light.ttf');
+}
+
+@font-face {
     font-family: '116watermelon';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116watermelon.woff') format('woff');
     font-weight: normal;
@@ -323,7 +328,7 @@ a {
   
 .slide-wrapper {
     width: 908px;
-    animation: slide 16s ease infinite;
+    animation: slide 20s ease infinite;
 }
 
 .slide {
@@ -346,3 +351,164 @@ a {
     80% {margin-left: -681px;}
     90% {margin-left: -681px;}
 }
+
+.mickey_mp3 {
+    z-index: 1;
+    position: relative;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    margin-top: 18vh;
+}
+
+.small_ball_left {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4.2vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+}
+.small_ball_left:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    filter: blur(5px);
+    z-index: 2;
+}
+.volume {
+    opacity: 50%;
+    margin-top: 5vh;
+    transform: rotate(-45deg);
+}
+
+.small_ball_right {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4.2vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    z-index: 10;
+    width: 45%;
+    height: 45%;
+    transform: translate(50%, -50%);
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+}
+.small_ball_right:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    filter: blur(5px);
+    z-index: 2;
+}
+.next {
+    opacity: 50%;
+    margin-top: 5vh;
+    transform: rotate(45deg);
+}
+
+.big_ball {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+}
+.big_ball:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    filter: blur(5px);
+    z-index: 1;
+}
+
+/* .big_ball .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(83, 83, 83, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+    z-index: -1;
+} don't delete 노삭제 부탁드려요 */
+
+.play_txt {
+    /* z-index: 2; */
+    width: fit-content;
+    height: fit-content;
+    font-family: 'poppinsL';
+    font-size: 1.3rem;
+    white-space: nowrap;
+    color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 45vh;
+    position: absolute;
+    transform: translate(-22%, -20%);
+}
+  
+.play_txt:before {
+    content: "Music is my life~ Click the 'HAPPYPLE'........";
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    overflow: hidden;
+    border-right: 3px solid white;
+    animation: typing 8s steps(35) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+.bbibbi { 
+    width: 30vw;
+    height: 40vh;
+    background-color: rgb(90, 90, 90);
+    margin: 0 auto;
+    margin-top: 10vh;
+} /*삐삐 크기 이정도요*/
+
+.ggumigi_paper{
+    width: 45vw;
+    height: 70vh;
+    background-color: rgb(90, 90, 90);
+    margin: 0 auto;
+    margin-top: 10vh;
+} /*다꾸 크기 이정도요*/
