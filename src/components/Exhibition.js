@@ -4,7 +4,7 @@ import Header from './Header';
 import '../css/Exhibition.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import comming_soon from '../assets/comming_soon.png'
+import coming_soon from '../assets/coming_soon.png'
 import lang from '../assets/lang_black.png'
 
 
@@ -38,7 +38,7 @@ function Exhibition() {
                         </div>
                     </div>
                     <div class="card close">
-                        <img className="exhibition-comming_soon" src={comming_soon} />
+                        <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
                         <h1>Road</h1>
                         <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
@@ -46,7 +46,7 @@ function Exhibition() {
                         </div>
                     </div>
                     <div class="card">
-                        <img className="exhibition-comming_soon" src={comming_soon} />
+                        <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
                             <h1>Protester</h1>
                             <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
