@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'poppinsM';
+    src: url('../../font/Poppins-Medium.ttf');
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.guestBook-container {
+    background-image: linear-gradient(180deg, #000000 0%, #8ec5fc 90%);
+    min-width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guestBook-section {
+    background-color: white;
+    padding: 5%;
+    width: 60vw;
+    min-height: 70vh;
+    border-bottom: double 2px #8ec5fc;
+    border-radius: 28px 28px 0 0;
+    text-align: center;
+    margin-top: 35rem;
+}
+
+.guestBook-text {
+    font-family: 'poppinsM';
+    color:#6d9dcc;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.guestBook-info {
+    width: 16vw;
+    height: 6vh;
+    margin: 1.5vh;
+    border: 1.6px solid #8ec5fc;
+    font-family: 'poppinsM';
+    font-size: 15px;
+}
+
+.guestBook-content {
+    font-family: 'poppinsM';
+    font-size: 15px;
+    max-width: 33.4vw;
+    min-width: 33.4vw;
+    max-height: 22vh;
+    min-height: 12vh;
+    margin-top: 1vh;
+    border: 1.6px solid #8ec5fc;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: top;
+}
+
+.guestBook-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'SDSamliphopangche_Basic';
+    font-size: 2.9vh;
+    text-align: center;
+    padding: 5px 15px;
+    border: solid 3px #6d9dcc;
+    border-radius: 5px;
+    color:#fff;
+    background-color: #6d9dcc;
+    width: 10vw;
+    height:fit-content;
+    margin-top: 1.2rem;
+    box-shadow: 1.5px 1.5px rgba(34, 35, 58, 0.2);
+    cursor: pointer;
+}
+
+.result-container {
+    background-color: white;
+    padding-top: 5vh;
+    width: 60vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-section {
+    width: 45vw;
+    min-height: 8vh;
+    height: fit-content;
+    border-bottom: solid 0.5px #eeeeee;
+    display: flex;
+}
+
+.result-user {
+    margin-right: 3vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.7vh;
+    font-weight: 600;
+    color:rgb(27, 27, 27);
+    width:6vw;
+}
+
+.result-content {
+    margin-right: 3vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.7vh;
+    color:rgb(27, 27, 27);
+    width:32vw;
+    margin-bottom: 2vh;
+}
+
+.result-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'SDSamliphopangche_Basic';
+    font-size: 2.4vh;
+    padding:0;
+    text-align: center;
+    border: solid 1.6px #e2e2e2;
+    border-radius: 5px;
+    color:#e2e2e2;
+    background-color: transparent;
+    width: 1.5vw;
+    height:fit-content;
+    cursor: pointer;
+    margin-top: 0.7vh;
+    margin-left: 1vh;
+}

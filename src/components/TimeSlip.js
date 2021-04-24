@@ -12,6 +12,7 @@ import kakao from '../assets/kakao.png'
 import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 import Mp3play from './contents/Mp3play';
+import Guest from './contents/Guest/Guest'
 // import Mp3_text from './contents/Mp3_text';
 
 
@@ -237,6 +238,7 @@ function TimeSlip() {
                     className="work-details"> 사람들은 순간을 오랫동안 기억하고 기록하기 위해 사진을 찍는다. 찍은 사진을 소셜 네트워킹 서비스(SNS)에 업로드하고 여러 사람과 공유한다.<br />
                     이러한 SNS는 변화의 흐름이 빨라 유행이 자주 바뀌었는데, 우리가 한 때 자주 사용했던 SNS를 통해 그리웠던 일상을 떠올려본다.</div>
             </div>
+            <Guest></Guest>
             <GoTop />
         </div>
     )
