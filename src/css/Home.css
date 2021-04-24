@@ -235,16 +235,15 @@
 }
 
 .blog-slider__title {
-    font-size: 24px;
-    /* font-weight: 900; */
+    font-size: 5vh;
     font-family: 'poppinsB';
-    color: #0d0925;
+    color: #1f1f1f;
     margin-bottom: 20px;
 }
 
 .blog-slider__text {
     color: #4e4a67;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     line-height: 1.5em;
     font-family: 'poppinsL';
 }

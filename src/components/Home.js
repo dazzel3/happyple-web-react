@@ -21,7 +21,7 @@ function Home() {
                                 <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt=""/>
                             </div>
                             <div className="blog-slider__content">
-                                <span className="blog-slider__code">17 MAY 2021</span>
+                                <span className="blog-slider__code">today's pick</span>
                                 <div className="blog-slider__title">Time Slip: go back</div>
                                 <div className="blog-slider__text">We want to go back to our daily routine of not wearing a mask. </div>
                                 <Link 

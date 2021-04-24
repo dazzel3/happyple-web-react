@@ -30,9 +30,10 @@ function Exhibition() {
                 <div className="wrapper">
                     <div class="card">
                         <img className="exhibition-lang" src={lang} />
-                        <div class="info">
-                            <h1>Time Slip</h1>
-                            <p>I want to go back before corona19 virus. i will go jeju-island at july.</p>
+                        <div className="info">
+                            <h1>◽ Time Slip</h1>
+                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <p>2021.08.09 - 2021.12.24</p>
                             <Link
                                 to = "/exhibition-timeslip"><button id="open-btn">OPEN</button></Link>
                         </div>
@@ -40,16 +41,18 @@ function Exhibition() {
                     <div class="card close">
                         <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
-                        <h1>Road</h1>
-                        <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-                        <button id="close-btn">CLOSE</button>
+                            <h1>◽ Time Slip</h1>
+                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <p>2021.08.09 - 2021.12.24</p>
+                            <button id="close-btn">CLOSE</button>
                         </div>
                     </div>
                     <div class="card">
                         <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
-                            <h1>Protester</h1>
-                            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+                            <h1>◽ Time Slip</h1>
+                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <p>2021.08.09 - 2021.12.24</p>
                             <button id="close-btn">CLOSE</button>
                         </div>
                     </div>

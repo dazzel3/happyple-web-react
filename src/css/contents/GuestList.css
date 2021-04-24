@@ -3,6 +3,11 @@
     src: url('../../font/Poppins-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'poppinsB';
+    src: url('../../font/Poppins-Bold.ttf');
+}
+
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 .notosanskr { 
@@ -30,7 +35,7 @@
 }
 
 .guestBook-text {
-    font-family: 'poppinsM';
+    font-family: 'poppinsB';
     color:#6d9dcc;
     font-weight: 500;
     font-size: 35px;
