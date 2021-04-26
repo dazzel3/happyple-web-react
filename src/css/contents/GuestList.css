@@ -44,11 +44,23 @@
     margin-bottom: 3rem;
 }
 
+input::-webkit-input-placeholder {
+    font-family: 'poppinsL';
+    color: rgb(218, 216, 216);
+    font-weight: 200;
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(218, 216, 216);
+    font-weight: 200;
+}
+
 .guestBook-info {
     width: 16vw;
     height: 6vh;
     margin: 1.5vh;
-    border: 1.6px solid #8ec5fc;
+    border: 1.6px solid #c0c0c0;
     font-family: 'poppinsM';
     font-size: 15px;
 }
@@ -61,7 +73,7 @@
     max-height: 22vh;
     min-height: 12vh;
     margin-top: 1vh;
-    border: 1.6px solid #8ec5fc;
+    border: 1.6px solid #c0c0c0;
     font-family: 'Noto Sans KR', sans-serif;
     text-align: top;
 }
@@ -74,15 +86,20 @@
     font-size: 2.9vh;
     text-align: center;
     padding: 5px 15px;
-    border: solid 3px #6d9dcc;
+    border: solid 3px #c0c0c0;
     border-radius: 5px;
     color:#fff;
-    background-color: #6d9dcc;
+    background-color: #c0c0c0;
     width: 10vw;
     height:fit-content;
-    margin-top: 1.2rem;
+    margin-top: 1.8rem;
     box-shadow: 1.5px 1.5px rgba(34, 35, 58, 0.2);
     cursor: pointer;
+}
+
+.guestBook-btn:hover {
+    border: solid 3px #6d9dcc;
+    background-color: #6d9dcc;
 }
 
 .result-container {
@@ -108,7 +125,7 @@
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 2.7vh;
     font-weight: 600;
-    color:rgb(27, 27, 27);
+    color:8ec5fc(27, 27, 27);
     width:6vw;
 }
 
