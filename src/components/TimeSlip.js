@@ -13,6 +13,7 @@ import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 import Mp3play from './contents/Mp3play';
 import Guest from './contents/Guest/Guest'
+import Bbibbi from './contents/Bbibbi/Bbibbi';
 // import Mp3_text from './contents/Mp3_text';
 
 
@@ -204,7 +205,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"
                     className="bbibbi_all">
-                    <div className="bbibbi"></div>
+                    <Bbibbi></Bbibbi>
                 </div>
 
                 <div 
