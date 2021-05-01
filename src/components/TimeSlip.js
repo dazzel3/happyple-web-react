@@ -14,6 +14,8 @@ import twitter from '../assets/twitter.png'
 import Mp3play from './contents/Mp3play';
 import Guest from './contents/Guest/Guest'
 import Bbibbi from './contents/Bbibbi/Bbibbi';
+import Draw from './contents/Draw/Draw';
+
 // import Mp3_text from './contents/Mp3_text';
 
 
@@ -231,13 +233,14 @@ function TimeSlip() {
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work">| SNS로 떠나는 과거여행</div>
+                    className="work">| 아E패드 대신 그림판</div>
                 <div 
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"> 사람들은 순간을 오랫동안 기억하고 기록하기 위해 사진을 찍는다. 찍은 사진을 소셜 네트워킹 서비스(SNS)에 업로드하고 여러 사람과 공유한다.<br />
-                    이러한 SNS는 변화의 흐름이 빨라 유행이 자주 바뀌었는데, 우리가 한 때 자주 사용했던 SNS를 통해 그리웠던 일상을 떠올려본다.</div>
+                    className="work-details"> 라떼는 말이야~ 그림판에 그림그리고 놀았다고.. 마우스로 그림그리는 이 갬성
+                    알긴 아니?</div>
+                <Draw></Draw>
             </div>
             <Guest></Guest>
             <GoTop />

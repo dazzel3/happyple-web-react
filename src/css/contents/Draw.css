@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'poppinsM';
+    src: url('../../font/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppinsL';
+    src: url('../../font/Poppins-Light.ttf');
+}
+
+.canvas-all {
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.canvas-txt{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.canvaspad {
+    width: 60vw;
+    height: 50vh;
+    background: rgb(255, 255, 255);
+    border: 1.2px dashed;
+    margin-top: 5vh;
+}
+
+.canvas-save {
+    font-family: 'poppinsM';
+    display: inline-block;
+    background: #69c;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pencil__refresh {
+    background-color: #FCF4EA;
+    border: none;
+    border-radius: 50%;
+    bottom: 18px;
+    cursor: pointer;
+    height: 26px;
+    padding: 4px 1px 0px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 3;
+}
+
+.pencil__submit {
+    bottom: 27px;
+    display: none;
+    position: absolute;
+    right: 80px;
+    z-index: 4;
+ }
