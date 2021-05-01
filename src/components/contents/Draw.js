@@ -1,5 +1,5 @@
 import React, {createRef, useEffect} from 'react';
-import '../../../css/contents/Draw.css'
+import '../../css/contents/Draw.css'
 
 
 function Draw() {
@@ -56,11 +56,7 @@ function Draw() {
     return (
         <>
         <div className="canvas-all">
-            <div className="canvas-txt">
-                마우스 드래그로 그림을 그려보세요.
-                {/* <div className="Pickr"></div> */}
-                <div className="canvas-save" onclick="location.href='';" download="my_painting.png">SAVE</div>
-            </div>    
+            <div className="canvas-save" onclick="location.href='';" download="my_painting.png">SAVE</div> 
             <div className="canvaspad">
                 <canvas ref={canvasRef} width="1000" height="500" />
             </div>

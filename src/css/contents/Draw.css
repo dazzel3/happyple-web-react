@@ -11,15 +11,10 @@
 .canvas-all {
     width: fit-content;
     height: fit-content;
+    overflow: hidden;
     align-items: center;
     margin: 0 auto;
     margin-top: 5vh;
-}
-
-.canvas-txt{
-    font-family: 'Noto Sans KR', sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
 }
 
 .canvaspad {
