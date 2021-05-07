@@ -58,7 +58,7 @@ function Draw() {
         <div className="canvas-all">
             <div className="canvas-save" onclick="location.href='';" download="my_painting.png">SAVE</div> 
             <div className="canvaspad">
-                <canvas ref={canvasRef} width="1000" height="500" />
+                <canvas ref={canvasRef} width="1000" height="600" />
             </div>
         </div>
         </>

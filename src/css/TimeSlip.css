@@ -513,21 +513,34 @@ a {
     background-color: rgb(90, 90, 90);
     margin: 0 auto;
     margin-top: 10vh;
-} /*삐삐 크기 이정도요*/
+} 
 
-.ggumigi_paper{
-    width: 45vw;
-    height: 70vh;
-    background-color: rgb(90, 90, 90);
+.daggu-img {
+    width: auto;
+    height: 80vh;
     margin: 0 auto;
-    margin-top: 10vh;
-} /*다꾸 크기 이정도요*/
+    margin-top: 6.5vh;
+    display: block;
+    text-align: center;
+}
+
+.daggu-img img{
+    width: 100%;
+    display: inline;
+}
 
 .random-img {
     width: auto;
     height: 59vh;
-    margin-top: 6vh;
-    margin-left: 50vh;
+    margin: 0 auto;
+    margin-top: 6.5vh;
+    display: block;
+    text-align: center;
+}
+
+.random-img img{
+    width: 100%;
+    display: inline;
 }
 
 #tab-80 {
