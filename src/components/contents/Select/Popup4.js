@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PopupDom from './PopupDom';
-import '../../css/contents/Popup.css'
-import select from '../../assets/select.png'
+import '../../../css/contents/Popup.css'
+import select from '../../../assets/select.png'
 
 class PopupContent extends Component {
     
@@ -23,11 +23,11 @@ class PopupContent extends Component {
         return(
             <div className="dimmed_layer_wrapper">
                 <div className="full_layer">
-                    <div className="common_alert"> 
-                        <div>{this.arr[this.state.value]}</div>
+                    <div className="common_alert">
                         <div>
-                            <button type="button" onClick={this.props.onClose} >x</button>
+                            <button type="button" className="popup-btn" onClick={this.props.onClose} >x</button>
                         </div>
+                        <div className="select-result">{this.arr[this.state.value]}</div>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ class Popup extends Component {
         })
     }
 
-    arr = ['꽝', '꿩', '까치', '독수리'];
+    arr = ['독수리', '꽝', '꿩', '까치'];
     
     state = {
         value:0,

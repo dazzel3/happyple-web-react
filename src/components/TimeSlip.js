@@ -16,7 +16,10 @@ import Guest from './contents/Guest/Guest'
 import Bbibbi from './contents/Bbibbi/Bbibbi';
 import Draw from './contents/Draw';
 import random from '../assets/random.png';
-import Popup from './contents/Popup';
+import Popup from './contents/Select/Popup';
+import Popup2 from './contents/Select/Popup2';
+import Popup3 from './contents/Select/Popup3';
+import Popup4 from './contents/Select/Popup4';
 // import Mp3_text from './contents/Mp3_text';
 
 
@@ -240,7 +243,11 @@ function TimeSlip() {
                     data-aos-delay="500"
                     data-aos-duration="1000"
                     className="work-details"> 꽝이 더 많은 걸 알면서도 도전하게 되더라구,, 과연 이번에는 당첨될 수 있을까?</div>
-                <div><img className="random-img" src={random}></img></div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-delay="1000"
+                    data-aos-duration="500"><img className="random-img" src={random}></img>
+                </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
@@ -279,7 +286,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select5">
-                    <Popup></Popup>
+                    <Popup2></Popup2>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -343,7 +350,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select1-1">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -391,7 +398,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select7-1">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -399,7 +406,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select8-1">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -415,7 +422,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select10-1">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -439,7 +446,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select1-2">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -471,7 +478,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select5-2">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -503,7 +510,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select9-2">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -519,7 +526,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select11-2">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -535,7 +542,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select1-3">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -631,7 +638,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select1-4">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -647,7 +654,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select3-4">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -687,7 +694,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select8-4">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -695,7 +702,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select9-4">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -711,7 +718,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select11-4">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -743,7 +750,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select3-5">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -783,7 +790,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select8-5">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -799,7 +806,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select10-5">
-                    <Popup></Popup>
+                    <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
@@ -807,7 +814,7 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500"  
                     className="select11-5">
-                    <Popup></Popup>
+                    <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
