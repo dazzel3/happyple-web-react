@@ -1,18 +1,17 @@
-import React, {createRef, useEffect} from 'react';
+import React, {useRef, useEffect} from 'react';
 import '../../css/contents/Draw.css'
 
 
-function Draw() {
+const Draw = () => {
 
-
-    let canvas = document.querySelector('canvas')
+    let canvas = document.querySelector("canvas");
     // let canvas;
-    let canvasRef = createRef();
+    let canvasRef = useRef();
 
     let pos = {
-        drawble : false,
+        drawble: false,
         X: -1,
-        Y: -1
+        Y: -1,
     };
 
     let ctx;
@@ -24,45 +23,60 @@ function Draw() {
         canvas.addEventListener("mousemove", draw);
         canvas.addEventListener("mouseup", finishDraw);
         canvas.addEventListener("mouseout", finishDraw);
-
-        // document.querySelector("canvas-save").addEventListener("click", event =>
-        // event.target.href = canvas.toDataURL()
-        // );
     }, []);
 
     function initDraw(event) {
         ctx.beginPath();
-        pos = {drawble:true, ...getPosition(event)};
+        pos = { drawble: true, ...getPosition(event) };
         ctx.moveTo(pos.X, pos.Y);
     }
 
-    function draw(event){
+    function draw(event) {
         if (pos.drawble) {
-            pos = {...pos, ...getPosition(event)};
+            pos = { ...pos, ...getPosition(event) };
             ctx.lineTo(pos.X, pos.Y);
             ctx.stroke();
         }
     }
 
-    function finishDraw(){
-        pos = {drawable: false, X:-1, Y:-1};
+    function finishDraw() {
+        pos = { drawable: false, X: -1, Y: -1 };
     }
 
     function getPosition(event) {
-        return {X: event.offsetX, Y: event.offsetY};
+        return { X: event.offsetX, Y: event.offsetY };
     }
 
+    function download() {
+        const tempImg = document.createElement("a");
+        tempImg.href = canvasRef.current.toDataURL("image/png");
+        tempImg.download = "hello.png";
+        tempImg.click();
+    }
+
+    function clearCanvas() {
+        // context.clearRect(0, 0, canvas.width, canvas.height);
+        // const w = canvas.width;
+        // canvas.width = 1;
+        // canvas.width = w;
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+    }
 
     return (
         <>
-        <div className="canvas-all">
-            <div className="canvas-save" onclick="location.href='';" download="my_painting.png">SAVE</div> 
-            <div className="canvaspad">
-                <canvas ref={canvasRef} width="1000" height="600" />
+            <div className="canvas-all">
+                <div className="canvas-save" onClick={download}>
+                    SAVE
+                </div>
+                <div className="canvas-clear" onClick={clearCanvas}>
+                    CLEAR
+                </div>
+                <div className="canvaspad">
+                    <canvas ref={canvasRef} width="1000" height="600" />
+                </div>
             </div>
-        </div>
         </>
-    )
+    );
 };
 
 export default Draw;
