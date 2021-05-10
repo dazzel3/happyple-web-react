@@ -5,7 +5,7 @@ import '../css/Exhibition.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import coming_soon from '../assets/coming_soon.png'
-import lang from '../assets/lang_black.png'
+import ex_main from '../assets/ex-main.png'
 
 
 function Exhibition() {
@@ -29,9 +29,9 @@ function Exhibition() {
                 </div>
                 <div className="wrapper">
                     <div class="card">
-                        <img className="exhibition-lang" src={lang} />
+                        <img className="exhibition-lang" src={ex_main} />
                         <div className="info">
-                            <h1>◽ Time Slip</h1>
+                            <h1>🎨 Time Slip</h1>
                             <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <Link
@@ -41,7 +41,7 @@ function Exhibition() {
                     <div class="card close">
                         <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
-                            <h1>◽ Time Slip</h1>
+                            <h1>🎨 Time Slip</h1>
                             <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <button id="close-btn">CLOSE</button>
@@ -50,7 +50,7 @@ function Exhibition() {
                     <div class="card">
                         <img className="exhibition-coming_soon" src={coming_soon} />
                         <div class="info">
-                            <h1>◽ Time Slip</h1>
+                            <h1>🎨 Time Slip</h1>
                             <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <button id="close-btn">CLOSE</button>
