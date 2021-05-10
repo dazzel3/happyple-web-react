@@ -19,21 +19,21 @@ function Guest() {
   const [users, setUsers] = useState([
     {
       id: 1,
-      username: 'velopert',
-      password: '1232',
-      content: '안녕'
+      username: 'behappy',
+      password: '1234',
+      content: '코로나 없던 시절이 그립네요..ㅠㅠ'
     },
     {
       id: 2,
-      username: 'tester',
-      password: 'dfsdf1',
-      content: '전시회'
+      username: '꽃사슴',
+      password: '5678',
+      content: '내가 그린 그림을 무제한으로 저장할 수 있어서 좋은듯여~'
     },
     {
       id: 3,
-      username: 'liz',
-      password: 'd440',
-      content: '재밋다'
+      username: '쿠키',
+      password: '1357',
+      content: '추억 돋네여 ㅋㅋ 문방구 감성..'
     }
   ]);
 
