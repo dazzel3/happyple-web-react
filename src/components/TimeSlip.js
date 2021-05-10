@@ -21,8 +21,6 @@ import Popup2 from './contents/Select/Popup2';
 import Popup3 from './contents/Select/Popup3';
 import Popup4 from './contents/Select/Popup4';
 // import Mp3_text from './contents/Mp3_text';
-import dagguimg from '../assets/daggu.png'
-// import Daggu from './contents/Daggu';
 
 
 function TimeSlip() {
@@ -227,11 +225,6 @@ function TimeSlip() {
                     data-aos-duration="1000"
                     className="work-details"> 스티커들로 나만의 이미지를 꾸며봐~<br />
                     그리고 저장 버튼을 눌러 이미지를 간직하자! 추억이 될거야 :)</div>
-                <div
-                    data-aos="fade-up"
-                    data-aos-delay="1000"
-                    data-aos-duration="500"><img className="daggu-img" src={dagguimg}></img>
-                </div>
             </div>     
             <div className="ts-slide" id="tab-80">
                 <div 
