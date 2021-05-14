@@ -184,6 +184,17 @@ a {
     margin-left: 5rem;
 }
 
+.work-details-tetris {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 2.5vh;
+    color:white;
+    /* text-align: center; */
+    margin-top: 0.6rem;
+    margin-bottom: 5vh;
+    margin-left: 5rem;
+}
+
 .work-txt {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 800;

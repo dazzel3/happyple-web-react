@@ -13,8 +13,8 @@ import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 import Mp3play from './contents/Mp3play';
 import Guest from './contents/Guest/Guest'
-import Bbibbi from './contents/Bbibbi/Bbibbi';
 import Draw from './contents/Draw';
+import Tetris from './contents/Tetris/Tetris';
 import random from '../assets/random.png';
 import Popup from './contents/Select/Popup';
 import Popup2 from './contents/Select/Popup2';
@@ -199,32 +199,19 @@ function TimeSlip() {
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work">| 그때 그 시절, 우리의 소통</div>
+                    className="work">| 그때 그 시절, 플래시 게임</div>
                 <div 
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"> 486... 1004.. 숫자로 소통했던 과거.. ㄱ나니..? <br />
-                    추억을 회상하고 싶다면 삐삐에 암호를 입력해봐..9999</div>
+                    className="work-details-tetris"> 추억의 플래시 게임 테트리스를 해보자!</div>
                 <div 
                     data-aos="fade-down"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="bbibbi_all">
-                    <Bbibbi></Bbibbi>
+                    className="tetris-container">
+                    <Tetris></Tetris>
                 </div>
-
-                <div 
-                    data-aos="fade-right"
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    className="work">| 요즘엔 폰꾸한다며? 다꾸가 원조였어</div>
-                <div 
-                    data-aos="zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    className="work-details"> 스티커들로 나만의 이미지를 꾸며봐~<br />
-                    그리고 저장 버튼을 눌러 이미지를 간직하자! 추억이 될거야 :)</div>
             </div>     
             <div className="ts-slide" id="tab-80">
                 <div 
