@@ -4,7 +4,7 @@ import Header from './Header';
 import '../css/Home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import home_main from '../assets/home-main.png'
+import home_main from '../assets/home_main.png'
 
 function Home() {
 

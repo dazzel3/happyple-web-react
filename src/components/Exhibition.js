@@ -5,8 +5,7 @@ import '../css/Exhibition.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import coming_soon from '../assets/coming_soon.png'
-import ex_main from '../assets/ex-main.png'
-
+import ex_main from '../assets/ex_main.png'
 
 function Exhibition() {
 
