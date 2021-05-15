@@ -435,9 +435,7 @@ a {
 .volume_plus {
     float: left;
     opacity: 50%;
-    margin-top: 8vh;
     margin: 8.8vh 0 0 1.4vw;
-    position: relative;
     transform: rotate(-45deg);
     cursor: pointer;
 }
@@ -450,10 +448,9 @@ a {
 .volume_minus {
     float: right;
     opacity: 50%;
-    margin: 1.2vh 1.5vw 0 0;
+    margin: 1.3vh 1.5vw 0 0;
     transform: rotate(-45deg);
     cursor: pointer;
-    position: relative;
     z-index: 3;
 }
 
