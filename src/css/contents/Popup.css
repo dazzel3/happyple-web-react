@@ -66,12 +66,12 @@
 }
 
 #random-btn {
-    width: 2.5vw;
+    width: 2.4vw;
     height: 3vh;
     background-color: transparent;
     position: relative;
-    top: 3.6vh;
-    left: 0.5vh;
+    top: 3.5vh;
+    left: 0.3vh;
     z-index: 1;
     cursor: pointer;
 }
@@ -94,6 +94,6 @@
 }
 
 .random-select {
-    width: 3vw;
+    width: 2.7vw;
     height: auto;
 }
