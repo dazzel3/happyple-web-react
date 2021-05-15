@@ -13,8 +13,8 @@ import facebook from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";
 import Mp3play from "./contents/Mp3play";
 import Guest from "./contents/Guest/Guest";
-import Bbibbi from "./contents/Bbibbi/Bbibbi";
 import Draw from "./contents/Draw";
+import Tetris from './contents/Tetris/Tetris';
 import random from "../assets/random.png";
 import Popup from "./contents/Select/Popup";
 import Popup2 from "./contents/Select/Popup2";
@@ -80,16 +80,14 @@ function TimeSlip() {
                     data-aos="fade-left"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work"
-                >
+                    className="work">
                     | COVID-19, 2020
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
+                    className="work-details">
                     우리의 일상을 바꿔버린 코로나 바이러스. 공기 중에 떠다니는
                     코로나 바이러스를 우리가 직접 없앨 수 있다면 얼마나 좋을까.
                     <br />
@@ -101,8 +99,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus1"
-                >
+                    className="virus1">
                     <Virus></Virus>
                 </div>
                 <div
@@ -110,8 +107,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus2"
-                >
+                    className="virus2">
                     <Virus3></Virus3>
                 </div>
                 <div
@@ -119,8 +115,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus3"
-                >
+                    className="virus3">
                     <Virus2></Virus2>
                 </div>
                 <div
@@ -128,8 +123,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus4"
-                >
+                    className="virus4">
                     <Virus></Virus>
                 </div>
                 <div
@@ -137,8 +131,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus5"
-                >
+                    className="virus5">
                     <Virus></Virus>
                 </div>
                 <div
@@ -146,8 +139,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus6"
-                >
+                    className="virus6">
                     <Virus2></Virus2>
                 </div>
                 <div
@@ -155,8 +147,7 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus7"
-                >
+                    className="virus7">
                     <Virus3></Virus3>
                 </div>
                 <div
@@ -164,16 +155,14 @@ function TimeSlip() {
                     data-aos-easing="ease-in-out"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="virus8"
-                >
+                    className="virus8">
                     <Virus2></Virus2>
                 </div>
                 <div
                     data-aos="fade-left"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-sub"
-                >
+                    className="work-sub">
                     * 바이러스를 클릭해보세요.
                 </div>
             </div>
@@ -182,19 +171,16 @@ function TimeSlip() {
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work"
-                >
+                    className="work">
                     | SNS로 떠나는 과거여행
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
+                    className="work-details">
                     사람들은 순간을 오랫동안 기억하고 기록하기 위해 <br />
-                    사진을 찍는다. 찍은 사진을 소셜 네트워크 서비스(SNS)에{" "}
+                    사진을 찍는다. 찍은 사진을 소셜 네트워크 서비스(SNS)에
                     <br />
                     업로드하고 여러 사람과 공유한다. 이러한 SNS는 변화의 <br />
                     흐름이 빨라 유행이 자주 바뀌었는데, 우리가 한 때 자주 <br />
@@ -204,16 +190,14 @@ function TimeSlip() {
                     data-aos="fade-down"
                     data-aos-delay="200"
                     data-aos-duration="500"
-                    className="work-txt"
-                >
+                    className="work-txt">
                     <i>SOCIAL NETWORK SERVICE</i>
                 </div>
                 <div
                     data-aos="fade-left"
                     data-aos-delay="1500"
                     data-aos-duration="1000"
-                    className="phone-img"
-                >
+                    className="phone-img">
                     <div id="slideshow">
                         <div className="slide-wrapper">
                             <div className="slide">
@@ -237,17 +221,14 @@ function TimeSlip() {
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work"
-                >
+                    className="work">
                     | Music in my pocket
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
+                    className="work-details">
                     2010년에는 스마트폰이 있어서 이러한 sns를 즐겼지만
                     2000년에는 우리가 어떻게 놀았지?
                     <br />
@@ -258,8 +239,7 @@ function TimeSlip() {
                     data-aos="fade-up"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="mickey_mp3"
-                >
+                    className="mickey_mp3">
                     <div className="small_ball_left">
                         <div
                             style={{ zIndex: 100, position: "relative" }}
@@ -311,45 +291,26 @@ function TimeSlip() {
                     data-aos-duration="1000"
                     className="work"
                 >
-                    | 그때 그 시절, 우리의 소통
+                    | 그때 그 시절, 플래시 게임
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
-                    486... 1004.. 숫자로 소통했던 과거.. ㄱ나니..? <br />
-                    추억을 회상하고 싶다면 삐삐에 암호를 입력해봐..9999
+                    className="work-details-tetris"> 추억의 플래시 게임 테트리스를 해보자!</div>
+                <div
+                    data-aos="fade-down"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                    className="work-sub">
+                    * 방향키로 게임을 즐겨봐요.
                 </div>
                 <div
                     data-aos="fade-down"
                     data-aos-delay="1000"
                     data-aos-duration="500"
-                    className="bbibbi_all"
-                >
-                    <Bbibbi></Bbibbi>
-                </div>
-
-                <div
-                    data-aos="fade-right"
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    className="work"
-                >
-                    | 요즘엔 폰꾸한다며? 다꾸가 원조였어
-                </div>
-                <div
-                    data-aos="zoom-in"
-                    data-aos-delay="500"
-                    data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
-                    스티커들로 나만의 이미지를 꾸며봐~
-                    <br />
-                    그리고 저장 버튼을 눌러 이미지를 간직하자! 추억이 될거야 :)
+                    className="tetris-container">
+                    <Tetris></Tetris>
                 </div>
             </div>
             <div className="ts-slide" id="tab-80">
@@ -357,25 +318,20 @@ function TimeSlip() {
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work"
-                >
+                    className="work">
                     | 문방구에서 한 번쯤 해본 것
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
+                    className="work-details">
                     꽝이 더 많은 걸 알면서도 도전하게 되더라구,, 과연 이번에는
-                    당첨될 수 있을까?
-                </div>
+                    당첨될 수 있을까?</div>
                 <div
                     data-aos="fade-up"
                     data-aos-delay="1000"
-                    data-aos-duration="500"
-                >
+                    data-aos-duration="500">
                     <img className="random-img" src={random}></img>
                 </div>
                 <div
@@ -1038,9 +994,7 @@ function TimeSlip() {
                     data-aos="zoom-in"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-details"
-                >
-                    {" "}
+                    className="work-details">
                     라떼는 말이야~ 그림판에 그림그리고 놀았다고.. 마우스로
                     그림그리는 이 갬성 알긴 아니?
                 </div>
@@ -1048,15 +1002,13 @@ function TimeSlip() {
                     data-aos="fade-down"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work-sub"
-                >
+                    className="work-sub">
                     * 마우스로 자유롭게 그려봐요.
                 </div>
                 <div
                     data-aos="fade-up"
                     data-aos-delay="1000"
-                    data-aos-duration="500"
-                >
+                    data-aos-duration="500">
                     <Draw></Draw>
                 </div>
             </div>
