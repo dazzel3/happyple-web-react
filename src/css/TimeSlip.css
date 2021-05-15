@@ -1,31 +1,33 @@
 @font-face {
-    font-family: 'poppinsM';
-    src: url('../font/Poppins-Medium.ttf');
+    font-family: "poppinsM";
+    src: url("../font/Poppins-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'poppinsL';
-    src: url('../font/Poppins-Light.ttf');
+    font-family: "poppinsL";
+    src: url("../font/Poppins-Light.ttf");
 }
 
 @font-face {
-    font-family: '116watermelon';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116watermelon.woff') format('woff');
+    font-family: "116watermelon";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116watermelon.woff")
+        format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Pretty_Left_handed';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Pretty_Left_handed.woff') format('woff');
+    font-family: "Pretty_Left_handed";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Pretty_Left_handed.woff")
+        format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-.notosanskr { 
-    font-family: 'Noto Sans KR', sans-serif;
+.notosanskr {
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 .ts-all {
@@ -43,7 +45,7 @@
 }
 
 .ts-title-container {
-    background-image: url('../assets/ex-bg.png');
+    background-image: url("../assets/ex-bg.png");
     background-repeat: no-repeat;
     background-attachment: center center;
     width: 99vw;
@@ -54,7 +56,7 @@
     z-index: 1;
     color: transparent;
     font-size: 143px;
-    font-family: '116watermelon';
+    font-family: "116watermelon";
     text-align: center;
     white-space: nowrap;
     position: absolute;
@@ -82,7 +84,7 @@
     40% {
         width: 100%;
     }
-    90%{
+    90% {
         width: 100%;
     }
     100% {
@@ -133,7 +135,7 @@ a {
     color: #5a5a5a;
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
-    font-family: 'poppinsM';
+    font-family: "poppinsM";
     font-weight: 600;
     font-size: 0.8rem;
 }
@@ -165,20 +167,20 @@ a {
 }
 
 .work {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     font-size: 4.7vh;
-    color:white;
+    color: white;
     /* text-align: center; */
     margin-top: 7rem;
     margin-left: 5rem;
 }
 
 .work-details {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 200;
     font-size: 2.5vh;
-    color:white;
+    color: white;
     /* text-align: center; */
     margin-top: 0.6rem;
     margin-left: 5rem;
@@ -196,10 +198,10 @@ a {
 }
 
 .work-txt {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 800;
     font-size: 9.3vh;
-    color:white;
+    color: white;
     margin-top: 12rem;
     margin-left: 6rem;
     animation: op 5s infinite;
@@ -218,7 +220,6 @@ a {
     100% {
         opacity: 0.2;
     }
-
 }
 
 .virus1 {
@@ -278,10 +279,10 @@ a {
 }
 
 .work-sub {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 200;
     font-size: 2vh;
-    color:rgb(139, 139, 139);
+    color: rgb(139, 139, 139);
     margin-top: 1rem;
     margin-right: 4rem;
     text-align: right;
@@ -307,7 +308,7 @@ a {
 @keyframes virusMove2 {
     40% {
         margin-bottom: 6px;
-        margin-left: 5px;  
+        margin-left: 5px;
     }
     74% {
         margin-bottom: 0;
@@ -317,7 +318,7 @@ a {
     }
     100% {
         margin-right: 0;
-        margin-top: 0;   
+        margin-top: 0;
     }
 }
 
@@ -327,9 +328,9 @@ a {
 }
 
 .phone-img {
-    background-image: url('../assets/smartphone.png');
+    background-image: url("../assets/smartphone.png");
     background-repeat: no-repeat;
-    background-attachment:  center center;
+    background-attachment: center center;
     width: 350px;
     height: 490px;
     position: absolute;
@@ -346,7 +347,7 @@ a {
     /* margin-bottom: rem; */
     margin-top: 3.34rem;
 }
-  
+
 .slide-wrapper {
     width: 908px;
     animation: slide 20s ease infinite;
@@ -364,13 +365,27 @@ a {
 }
 
 @keyframes slide {
-    30% {margin-left: 0px;}
-    40% {margin-left: -227px;}
-    50% {margin-left: -227px;}
-    60% {margin-left: -454px;}
-    70% {margin-left: -454px;}
-    80% {margin-left: -681px;}
-    90% {margin-left: -681px;}
+    30% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: -227px;
+    }
+    50% {
+        margin-left: -227px;
+    }
+    60% {
+        margin-left: -454px;
+    }
+    70% {
+        margin-left: -454px;
+    }
+    80% {
+        margin-left: -681px;
+    }
+    90% {
+        margin-left: -681px;
+    }
 }
 
 .mickey_mp3 {
@@ -386,7 +401,7 @@ a {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 4.2vh;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     width: 45%;
     height: 45%;
     border-radius: 50%;
@@ -395,9 +410,14 @@ a {
     transform: translate(-50%, -50%);
     top: 0;
     left: 0;
-    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+    background: radial-gradient(
+        circle at 50% 250%,
+        #b33c65 30%,
+        #a42f58 150%,
+        #000000 100%
+    );
 }
-.small_ball_left:before {
+.small_ball_left::before {
     content: "";
     position: absolute;
     top: 1%;
@@ -405,21 +425,48 @@ a {
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    background: radial-gradient(
+        circle at 50% 0px,
+        #f3abcb,
+        rgba(255, 255, 255, 0) 33%
+    );
     filter: blur(5px);
-    z-index: 2;
 }
-.volume {
+.volume_plus {
+    float: left;
     opacity: 50%;
-    margin-top: 5vh;
+    margin-top: 8vh;
+    margin: 8.8vh 0 0 1.4vw;
+    position: relative;
     transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.volume_plus:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.volume_minus {
+    float: right;
+    opacity: 50%;
+    margin: 1.2vh 1.5vw 0 0;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.volume_minus:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .small_ball_right {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 4.2vh;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     z-index: 10;
     width: 45%;
@@ -428,7 +475,12 @@ a {
     top: 0;
     right: 0;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+    background: radial-gradient(
+        circle at 50% 250%,
+        #b33c65 30%,
+        #a42f58 150%,
+        #000000 100%
+    );
 }
 .small_ball_right:before {
     content: "";
@@ -438,14 +490,46 @@ a {
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    background: radial-gradient(
+        circle at 50% 0px,
+        #f3abcb,
+        rgba(255, 255, 255, 0) 33%
+    );
     filter: blur(5px);
     z-index: 2;
 }
-.next {
+
+.before {
+    float: left;
+    width: 15px;
+    position: relative;
     opacity: 50%;
-    margin-top: 5vh;
+    margin: 3vh 0 0 1.9vw;
     transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.before>img{
+    margin-top: 2vh;
+}
+
+.before:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.after {
+    float: right;
+    width: 15px;
+    opacity: 50%;
+    margin: 10.3vh 1.5vw 0 0;
+    transform: rotate(225deg);
+    cursor: pointer;
+}
+
+.after:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .big_ball {
@@ -453,7 +537,12 @@ a {
     height: 100%;
     border-radius: 50%;
     position: absolute;
-    background: radial-gradient(circle at 50% 250%, #b33c65 30%, #a42f58 150%, #000000 100%);
+    background: radial-gradient(
+        circle at 50% 250%,
+        #b33c65 30%,
+        #a42f58 150%,
+        #000000 100%
+    );
 }
 .big_ball:before {
     content: "";
@@ -463,7 +552,11 @@ a {
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 0px, #f3abcb , rgba(255, 255, 255, 0) 33%);
+    background: radial-gradient(
+        circle at 50% 0px,
+        #f3abcb,
+        rgba(255, 255, 255, 0) 33%
+    );
     filter: blur(5px);
     z-index: 1;
 }
@@ -481,7 +574,7 @@ a {
     /* z-index: 2; */
     width: fit-content;
     height: fit-content;
-    font-family: 'poppinsL';
+    font-family: "poppinsL";
     font-size: 1.3rem;
     white-space: nowrap;
     color: transparent;
@@ -491,7 +584,7 @@ a {
     position: absolute;
     transform: translate(-22%, -20%);
 }
-  
+
 .play_txt:before {
     content: "Music is my life~ Click the 'HAPPYPLE'........";
     text-align: center;
@@ -503,7 +596,7 @@ a {
     color: #ffffff;
     overflow: hidden;
     border-right: 3px solid white;
-    animation: typing 8s steps(35) infinite;
+    animation: typing 12s steps(35) infinite;
 }
 
 @keyframes typing {
@@ -527,7 +620,7 @@ a {
     text-align: center;
 }
 
-.random-img img{
+.random-img img {
     width: 100%;
     display: inline;
 }
@@ -588,7 +681,7 @@ a {
 .select9 {
     position: absolute;
     top: 29.1%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10 {
@@ -660,7 +753,7 @@ a {
 .select9-1 {
     position: absolute;
     top: 31.8%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10-1 {
@@ -732,7 +825,7 @@ a {
 .select9-2 {
     position: absolute;
     top: 34.5%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10-2 {
@@ -804,7 +897,7 @@ a {
 .select9-3 {
     position: absolute;
     top: 37.2%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10-3 {
@@ -876,7 +969,7 @@ a {
 .select9-4 {
     position: absolute;
     top: 39.9%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10-4 {
@@ -948,7 +1041,7 @@ a {
 .select9-5 {
     position: absolute;
     top: 42.6%;
-    left: 59.0%;
+    left: 59%;
 }
 
 .select10-5 {
