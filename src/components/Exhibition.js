@@ -6,6 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import coming_soon from '../assets/coming_soon.png'
 import ex_main from '../assets/ex-main.png'
+import ex_2 from '../assets/ex_2.png'
+import ex_3 from '../assets/ex_3.png'
 
 
 function Exhibition() {
@@ -39,7 +41,7 @@ function Exhibition() {
                         </div>
                     </div>
                     <div class="card close">
-                        <img className="exhibition-coming_soon" src={coming_soon} />
+                        <img className="exhibition-coming_soon" src={ex_2} />
                         <div class="info">
                             <h1>🎨 Time Slip</h1>
                             <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
@@ -48,7 +50,7 @@ function Exhibition() {
                         </div>
                     </div>
                     <div class="card">
-                        <img className="exhibition-coming_soon" src={coming_soon} />
+                        <img className="exhibition-coming_soon" src={ex_3} />
                         <div class="info">
                             <h1>🎨 Time Slip</h1>
                             <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
