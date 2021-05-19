@@ -138,6 +138,7 @@ a {
     font-family: "poppinsM";
     font-weight: 600;
     font-size: 0.8rem;
+    scroll-behavior: smooth;
 }
 
 .year-tab:hover {

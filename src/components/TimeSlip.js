@@ -21,6 +21,7 @@ import Popup2 from "./contents/Select/Popup2";
 import Popup3 from "./contents/Select/Popup3";
 import Popup4 from "./contents/Select/Popup4";
 import next from "../assets/next.png";
+import Card from "./contents/Card";
 
 function TimeSlip() {
     const [volume, setVolume] = useState(1);
@@ -940,6 +941,7 @@ function TimeSlip() {
                     <Draw></Draw>
                 </div>
             </div>
+            <Card></Card>
             <Guest></Guest>
             <GoTop />
         </div>
