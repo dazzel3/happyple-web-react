@@ -327,7 +327,8 @@ function TimeSlip() {
                     data-aos-duration="1000"
                     className="work-details">
                     꽝이 더 많은 걸 알면서도 도전하게 되더라구,, 과연 이번에는
-                    당첨될 수 있을까?</div>
+                    당첨될 수 있을까?
+                </div>
                 <div
                     data-aos="fade-up"
                     data-aos-delay="1000"
@@ -337,657 +338,584 @@ function TimeSlip() {
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1"
-                >
+                    className="select1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2"
-                >
+                    className="select2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3"
-                >
+                    className="select3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4"
-                >
+                    className="select4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5"
-                >
+                    className="select5">
                     <Popup2></Popup2>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6"
-                >
+                    className="select6">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7"
-                >
+                    className="select7">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8"
-                >
+                    className="select8">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9"
-                >
+                    className="select9">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10"
-                >
+                    className="select10">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11"
-                >
+                    className="select11">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12"
-                >
+                    className="select12">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1-1"
-                >
+                    className="select1-1">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2-1"
-                >
+                    className="select2-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3-1"
-                >
+                    className="select3-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4-1"
-                >
+                    className="select4-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5-1"
-                >
+                    className="select5-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6-1"
-                >
+                    className="select6-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7-1"
-                >
+                    className="select7-1">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8-1"
-                >
+                    className="select8-1">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9-1"
-                >
+                    className="select9-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10-1"
-                >
+                    className="select10-1">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11-1"
-                >
+                    className="select11-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12-1"
-                >
+                    className="select12-1">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1-2"
-                >
+                    className="select1-2">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2-2"
-                >
+                    className="select2-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3-2"
-                >
+                    className="select3-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4-2"
-                >
+                    className="select4-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5-2"
-                >
+                    className="select5-2">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6-2"
-                >
+                    className="select6-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7-2"
-                >
+                    className="select7-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8-2"
-                >
+                    className="select8-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9-2"
-                >
+                    className="select9-2">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10-2"
-                >
+                    className="select10-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11-2"
-                >
+                    className="select11-2">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12-2"
-                >
+                    className="select12-2">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1-3"
-                >
+                    className="select1-3">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2-3"
-                >
+                    className="select2-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3-3"
-                >
+                    className="select3-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4-3"
-                >
+                    className="select4-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5-3"
-                >
+                    className="select5-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6-3"
-                >
+                    className="select6-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7-3"
-                >
+                    className="select7-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8-3"
-                >
+                    className="select8-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9-3"
-                >
+                    className="select9-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10-3"
-                >
+                    className="select10-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11-3"
-                >
+                    className="select11-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12-3"
-                >
+                    className="select12-3">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1-4"
-                >
+                    className="select1-4">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2-4"
-                >
+                    className="select2-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3-4"
-                >
+                    className="select3-4">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4-4"
-                >
+                    className="select4-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5-4"
-                >
+                    className="select5-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6-4"
-                >
+                    className="select6-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7-4"
-                >
+                    className="select7-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8-4"
-                >
+                    className="select8-4">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9-4"
-                >
+                    className="select9-4">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10-4"
-                >
+                    className="select10-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11-4"
-                >
+                    className="select11-4">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12-4"
-                >
+                    className="select12-4">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select1-5"
-                >
+                    className="select1-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select2-5"
-                >
+                    className="select2-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select3-5"
-                >
+                    className="select3-5">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select4-5"
-                >
+                    className="select4-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select5-5"
-                >
+                    className="select5-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select6-5"
-                >
+                    className="select6-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select7-5"
-                >
+                    className="select7-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select8-5"
-                >
+                    className="select8-5">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select9-5"
-                >
+                    className="select9-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select10-5"
-                >
+                    className="select10-5">
                     <Popup4></Popup4>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select11-5"
-                >
+                    className="select11-5">
                     <Popup3></Popup3>
                 </div>
                 <div
                     data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-out"
-                    data-aos-delay="1000"
+                    data-aos-delay="700"
                     data-aos-duration="500"
-                    className="select12-5"
-                >
+                    className="select12-5">
                     <Popup></Popup>
                 </div>
                 <div
                     data-aos="fade-right"
                     data-aos-delay="500"
                     data-aos-duration="1000"
-                    className="work"
-                >
+                    className="work">
                     | 아E패드 대신 그림판
                 </div>
                 <div
