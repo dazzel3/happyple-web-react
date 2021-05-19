@@ -24,6 +24,12 @@
     src: url('../font/Poppins-Medium.ttf');
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 ::-webkit-scrollbar { 
     width: 8px;
 }
@@ -61,7 +67,7 @@
     overflow: hidden;
     min-height: 80.7vh;
     height: fit-content;
-    width: 75%;
+    width: 100%;
     margin-top: 1.8rem;
 }
 
@@ -125,25 +131,24 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 70vh;
-    min-height: 60vh;
-    border-radius: 28px 28px 0 0;
+    height: 100vh;
     text-align: center;
 }
 
 .second-text {
     color: rgb(34, 34, 34);
-    font-size: 32px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-size: 7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     line-height: 1.3em;
     text-align: center;
 }
 
 .second-details {
-    font-size: 15px;
+    font-size: 4vh;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
@@ -161,23 +166,23 @@
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 70vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .third-text {
     color: rgb(34, 34, 34);
-    font-size: 32px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-size: 7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     margin-left: 2rem;
     line-height: 1.3em;
 }
 
 .third-details {
-    font-size: 15px;
+    font-size: 4vh;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
@@ -196,23 +201,23 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 70vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .fourth-text {
     color: rgb(34, 34, 34);
-    font-size: 34px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-size: 7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     margin-left: 2rem;
     line-height: 1.3em;
 }
 
 .fourth-details {
-    font-size: 15px;
+    font-size: 4vh;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
@@ -223,23 +228,23 @@
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 70vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .fifth-text {
     color: rgb(34, 34, 34);
-    font-size: 34px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-size: 7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     margin-left: 2rem;
     line-height: 1.3em;
 }
 
 .fifth-details {
-    font-size: 15px;
+    font-size: 4vh;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
@@ -250,14 +255,14 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 70vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .sixth-text {
     color: rgb(34, 34, 34);
     font-size: 33px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     line-height: 1.3em;
     text-align: center;
@@ -273,7 +278,8 @@
 }
 
 .way {
-    font-family: 'SDSamliphopangche_Basic';
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     font-size: 17px;
     margin: 10px 0;
 }
@@ -281,7 +287,7 @@
 .way-details {
     font-size: 14px;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
@@ -291,14 +297,14 @@
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 80vh;
-    min-height: 60vh;
+    height: 100vh;
 }
 
 .seventh-text {
     color: rgb(34, 34, 34);
     font-size: 33px;
-    font-family: 'SDSamliphopangche_Basic';
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2rem;
     line-height: 1.3em;
     text-align: center;
@@ -334,7 +340,7 @@
 .about-bio {
     font-size: 14px;
     color: rgb(129, 129, 129);
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
     margin-top: 1rem;
