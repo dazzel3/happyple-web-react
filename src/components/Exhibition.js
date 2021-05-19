@@ -33,7 +33,10 @@ function Exhibition() {
                         <img className="exhibition-lang" src={ex_main} />
                         <div className="info">
                             <h1>🎨 Time Slip</h1>
-                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <p className="info-details">
+                                '레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 
+                                완전 소중한 추억 보고갈래..?
+                            </p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <Link
                                 to = "/exhibition-timeslip"><button id="open-btn">OPEN</button></Link>
@@ -42,8 +45,11 @@ function Exhibition() {
                     <div class="card close">
                         <img className="exhibition-coming_soon" src={ex_2} />
                         <div class="info">
-                            <h1>🎨 Time Slip</h1>
-                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <h1>🎨 My flowers</h1>
+                            <p className="info-details">
+                                나만의 꽃을 찾으러 가는길, 함께 해요.
+                                어떤 꽃을 갖고 싶으세요?
+                            </p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <button id="close-btn">CLOSE</button>
                         </div>
@@ -51,8 +57,11 @@ function Exhibition() {
                     <div class="card">
                         <img className="exhibition-coming_soon" src={ex_3} />
                         <div class="info">
-                            <h1>🎨 Time Slip</h1>
-                            <p className="info-details">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. 완전 소중한 추억 보고갈래..?</p>
+                            <h1>🎨 Rest</h1>
+                            <p className="info-details">
+                                일상에서의 쉼표, 필요하지 않으신가요?
+                                잠시 여유를 즐겨보세요 :)
+                            </p>
                             <p>2021.08.09 - 2021.12.24</p>
                             <button id="close-btn">CLOSE</button>
                         </div>
