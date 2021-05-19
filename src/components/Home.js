@@ -23,8 +23,8 @@ function Home() {
                             </div>
                             <div className="blog-slider__content">
                                 <span className="blog-slider__code">today's pick</span>
-                                <div className="blog-slider__title">Time Slip: go back</div>
-                                <div className="blog-slider__text">We want to go back to our daily routine of not wearing a mask. </div>
+                                <div className="blog-slider__title">Time Slip: Retro</div>
+                                <div className="blog-slider__text">'레트로' 컨셉을 담은 2020 to 1980년대 타임슬립. <br/>완전 소중한 추억 보고갈래..? </div>
                                 <Link 
                                 data-aos="zoom-in"
                                 data-aos-delay="50"

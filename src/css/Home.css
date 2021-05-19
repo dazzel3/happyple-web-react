@@ -13,6 +13,13 @@
     src: url('../font/Poppins-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -36,9 +43,8 @@
 }
 
 .blog-slider {
-    width: 95%;
+    width: 57vw;
     position: relative;
-    max-width: 800px;
     margin-top: 3.3rem;
     background: #fff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
@@ -245,7 +251,7 @@
     color: #4e4a67;
     margin-bottom: 3rem;
     line-height: 1.5em;
-    font-family: 'poppinsL';
+    font-family: 'IBMPlexSansKR-Light';
 }
   
 .blog-slider__button {
