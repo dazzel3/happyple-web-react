@@ -244,7 +244,8 @@ function TimeSlip() {
                         <div
                             style={{ zIndex: 100, position: "relative" }}
                             onClick={soundUp}
-                            className="volume_plus">
+                            className="volume_plus"
+                        >
                             +
                         </div>
                         <div
