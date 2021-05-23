@@ -9,8 +9,9 @@ import lang from '../assets/lang_black.png'
 import emotion from '../assets/emo.png'
 import sr from '../assets/seryoung.png'
 import dy from '../assets/dayeon.png'
-import kid from '../assets/kids.png'
-import mediaArt from '../assets/media_art.mp4';
+import media1 from '../assets/media1.GIF'
+import art1 from '../assets/art1.jpg'
+import art2 from '../assets/art2.jpg'
 
 function About() {
 
@@ -59,16 +60,24 @@ function About() {
                         화면 속의 예술,<br />
                         <span>미디어아트</span>를 웹에서 즐겨보세요.
                     </div>
-                    <div className="media-art">
-                        <video width="100%" height="100%" autoPlay="autoplay" loop="loop" muted="muted">
-                            <source src={require('../assets/media_art.mp4')} type="video/mp4"></source>
-                        </video>
+                    <div 
+                        // data-aos="fade-up"
+                        // data-aos-delay="1000"
+                        // data-aos-duration="1000"
+                        className="artsection1">
+                        <img 
+                            data-aos="fade-right"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="art1" src={art1} 
+                        />
+                        <img 
+                            data-aos="fade-left"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="art2" src={art2} 
+                        />
                     </div>
-                    {/* <img 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="about-emotion" src={emotion} /> */}
                     <div 
                         data-aos="fade-up"
                         data-aos-delay="500"
@@ -86,8 +95,13 @@ function About() {
                         data-aos-duration="1000"
                         className="third-text">
                         보기만 하는 전시가 아닌, <br />
-                        작품과 상호작용하며 움직이는 전시를 경험하세요.
+                        작품과 <span>상호작용</span>하며 움직이는 전시를 경험하세요.
                     </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-media1" src={media1} />
                     <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
@@ -96,11 +110,6 @@ function About() {
                         누가, 어떻게 전시를 즐기냐에 따라 미디어아트 작품의 감상이 달라지기도 하죠. <br />
                         오프라인 전시회가 열리기 힘든 상황을 대신해 해피플이 이런 동적인 전시회를 개최합니다.
                     </div>
-                    <img 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="about-lang" src={lang} />
                 </div>
                 <div className="fourth">
                     <div 
@@ -123,7 +132,7 @@ function About() {
                         data-aos="fade-up"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="about-lang" src={lang} />
+                        className="about-lang" src={media1} />
                 </div>
                 <div className="fifth">
                     <div 
@@ -145,7 +154,7 @@ function About() {
                         data-aos="fade-up"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="about-lang" src={lang} />
+                        className="about-lang" src={media1} />
                 </div>
                 <div className="sixth">
                     <div 
