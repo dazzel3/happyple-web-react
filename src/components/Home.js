@@ -34,17 +34,6 @@ function Home() {
                                 to = "/exhibition-timeslip">VIEW MORE</Link>
                             </div>
                         </div>
-                        {/* <div className="blog-slider__item swiper-slide">
-                            <div className="blog-slider__img">
-                                <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt=""/>
-                            </div>
-                            <div className="blog-slider__content">
-                                <span className="blog-slider__code">26 December 2019</span>
-                                <div className="blog-slider__title">Lorem Ipsum Dolor2</div>
-                                <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-                                <Link className="blog-slider__button" to = "/Exhibition">VIEW MORE</Link>
-                            </div>
-                        </div> */}
                     </div>
                     <div className="blog-slider__pagination"></div>
                 </div>

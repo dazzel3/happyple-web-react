@@ -20,6 +20,12 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -234,24 +240,26 @@
 
 .blog-slider__code {
     color: #7b7992;
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
     display: block;
     font-weight: 500;
     font-family: 'poppinsM';
+    font-size: 3vh;
 }
 
 .blog-slider__title {
-    font-size: 5vh;
+    font-size: 6.4vh;
     font-family: 'poppinsB';
     color: #1f1f1f;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .blog-slider__text {
-    color: #4e4a67;
+    color: rgb(129, 129, 129);
     margin-bottom: 3rem;
     line-height: 1.5em;
-    font-family: 'IBMPlexSansKR-Light';
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2.6vh;
 }
   
 .blog-slider__button {

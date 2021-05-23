@@ -150,19 +150,14 @@ function About() {
                         비용은 적게, 시간과 장소의 제한 없이 전시회를 열어보세요. <br />
                         오직 해피플에서만 가능합니다. 궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
                     </div>
-                    <img 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="about-lang" src={media1} />
                 </div>
                 <div className="sixth">
                     <div 
                         data-aos="zoom-in-down"
                         data-aos-delay="200"
                         data-aos-duration="1000"
-                        className="seventh-text">
-                        해피플을 즐길 수 있는 두가지 방법.
+                        className="sixth-text">
+                        해피플을 즐길 수 있는<br/>두가지 방법.
                     </div>
                     <div className="sixth-details">
                         <div
@@ -171,11 +166,14 @@ function About() {
                             data-aos-duration="1000"
                             className="about-intro">
                             <div className="way">
-                                👍 오프라인 전시회 대신 해피플을 방문하세요.
+                                오프라인 전시회 대신<br/>해피플을 방문하세요.
                             </div>
                             <div className="way-details">
                                 시간, 장소의 제약없이 즐길 수 있는<br />미디어아트 전시회, 상상만 해도 좋지 않나요? <br />
                                 해피플이 여러분에게 행복한 시간을 선물할게요.
+                            </div>
+                            <div className="way-details-more">
+                                전시보기
                             </div>
                         </div>
                         <div 
@@ -184,11 +182,14 @@ function About() {
                             data-aos-duration="1000"
                             className="about-intro">
                             <div className="way">
-                                👍 미디어아트 작품을 해피플에 전시해보세요.
+                                미디어아트 작품을<br/>해피플에 전시해보세요.
                             </div>
                             <div className="way-details">
                                 오프라인 전시회 개최에<br />한계를 느낀다면, 해피플에게 의뢰해주세요. <br />
                                 해피플이 작가님의 작품을 더욱 풍요롭게 만들어주겠습니다.
+                            </div>
+                            <div className="way-details-more">
+                                의뢰하기
                             </div>
                         </div>
                     </div>
