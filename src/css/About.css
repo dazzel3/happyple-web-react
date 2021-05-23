@@ -312,7 +312,8 @@
     margin-left: 2rem;
 }
 
-.sixth {
+/* 굿즈 */
+.sixth  {
     background-color: white;
     padding: 5%;
     width: auto;
@@ -337,6 +338,29 @@
     line-height: 1.5em;
     margin-top: 1rem;
     margin-left: 2rem;
+}
+
+.goods-all{
+    display: flex;
+    /* flex-flow: row wrap; */
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 15vh;
+    margin-bottom: 9vh;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.case{
+    width: 13vw;
+}
+
+.griptok{
+    width: 13vw;
+}
+
+.keyring{
+    width: 13vw;
 }
 
 .seventh {
