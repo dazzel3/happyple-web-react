@@ -10,6 +10,7 @@ import emotion from '../assets/emo.png'
 import sr from '../assets/seryoung.png'
 import dy from '../assets/dayeon.png'
 import kid from '../assets/kids.png'
+import mediaArt from '../assets/media_art.mp4';
 
 function About() {
 
@@ -31,18 +32,18 @@ function About() {
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="about-logo" src={logo} />
-                    <img 
+                    {/* <img 
                         data-aos="fade-left"
                         data-aos-delay="1000"
                         data-aos-duration="1000"
-                        className="about-kid" src={kid} />
+                        className="about-kid" src={kid} /> */}
                     <div
                         data-aos="fade-right"
                         data-aos-delay="1000"
                         data-aos-duration="1000"
                         className="first-details">
                         해피플은 interaction기반의 미디어아트 온라인 전시회 플랫폼입니다.<br />
-                        코로나19로 직접 가지 못한 전시회를 여기, 해피플에서 즐겨보세요.
+                        코로나19로 직접 가지 못한 전시회를 여기, <span>해피플</span>에서 즐겨보세요.
                     </div>  
                 </div>
                 <div
@@ -56,8 +57,18 @@ function About() {
                         data-aos-duration="1000"
                         className="second-text">
                         화면 속의 예술,<br />
-                        미디어아트를 웹에서 즐겨보세요.
+                        <span>미디어아트</span>를 웹에서 즐겨보세요.
                     </div>
+                    <div className="media-art">
+                        <video width="100%" height="100%" autoPlay="autoplay" loop="loop" muted="muted">
+                            <source src={require('../assets/media_art.mp4')} type="video/mp4"></source>
+                        </video>
+                    </div>
+                    {/* <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-emotion" src={emotion} /> */}
                     <div 
                         data-aos="fade-up"
                         data-aos-delay="500"
@@ -66,11 +77,7 @@ function About() {
                         코로나19로 인해 가지 못했던 미디어아트 전시회를 해피플에서 경험해보세요. <br />
                         오프라인 전시회와 또 다른 매력을 느낄 수 있을거에요.
                     </div>
-                    <img 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="about-emotion" src={emotion} />
+                    
                 </div>
                 <div className="third">
                     <div 

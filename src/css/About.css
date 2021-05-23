@@ -68,11 +68,10 @@
     min-height: 80.7vh;
     height: fit-content;
     width: 100%;
-    margin-top: 1.8rem;
 }
 
 .first {
-    min-height: 80.7vh;
+    height: 100vh;
     padding: 5%;
 }
 
@@ -80,15 +79,16 @@
     width: auto;
     height: fit-content;
     color: white;
-    font-size: 45px;
+    font-size: 9.5vh;
+    margin-left: 10vh;
     font-family: 'SDSamliphopangche_Basic';
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 @keyframes spacing {
     0% {
         opacity: 0;
-        color:rgb(51, 51, 51);
+        color:#5a5a5a;
     }
     50% {
         opacity: 1;
@@ -105,18 +105,25 @@
 }
 
 .about-logo {
-    margin-top: 5px;
-    width: 440px;
+    margin-top: 0.5vh;
+    margin-left: 10vh;
+    width: 45vw;
     height: auto;
 }
 
 .first-details {
-    font-size: 17px;
-    color: rgb(51, 51, 51);
-    font-family: 'IBMPlexSansKR-Light';
+    font-size: 4vh;
+    color: #5a5a5a;
+    margin-left: 10vh;
+    font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
-    margin-top: 3.6rem;
+    margin-top: 7vh;
+}
+
+.first-details>span:hover {
+    background-color:rgb(243, 207, 0);
+    color: white;
 }
 
 .about-kid {
@@ -145,6 +152,12 @@
     text-align: center;
 }
 
+.second-text>span {
+    background: linear-gradient(to right, rgb(255, 0, 119), rgb(38, 0, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .second-details {
     font-size: 4vh;
     color: rgb(129, 129, 129);
@@ -153,6 +166,11 @@
     line-height: 1.5em;
     margin-top: 1rem;
     text-align: center;
+}
+
+.media-art {
+    width: 50vw;
+    height: 20vh;
 }
 
 .about-emotion {
