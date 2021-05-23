@@ -169,7 +169,7 @@
     font-size: 7.3vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 2.7rem;
     line-height: 1.3em;
     text-align: center;
 }
@@ -324,13 +324,46 @@
     font-size: 7vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
+    text-align: center;
+    margin-top: 2.7rem;
+    line-height: 1.3em;
+}
+
+.sixth-details {
+    font-size: 4vh;
+    color: rgb(129, 129, 129);
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.seventh {
+    background-color: rgb(243, 243, 243);
+    padding: 5%;
+    width: auto;
+    height: fit-content;
+}
+
+.seventh-text {
+    color: rgb(34, 34, 34);
+    font-size: 7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-top: 2.7rem;
     margin-bottom: 12vh;
     line-height: 3.4rem;
     text-align: center;
 }
 
-.sixth-details {
+.seventh-text>span {
+    background: linear-gradient(to right, rgb(126, 126, 126), rgb(66, 66, 66));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.seventh-details {
     line-height: 1.5em;
     margin-top: 2.4rem;
     text-align: center;
@@ -365,14 +398,14 @@
     margin-bottom: 7vh;
 }
 
-.seventh {
-    background-color: rgb(243, 243, 243);
+.eighth {
+    background-color: white;
     padding: 5%;
     width: auto;
     height: fit-content;
 }
 
-.seventh-text {
+.eighth-text {
     color: rgb(34, 34, 34);
     font-size: 6.3vh;
     font-family: "Noto Sans KR", sans-serif;
@@ -383,7 +416,7 @@
     text-align: center;
 }
 
-.seventh-details {
+.eighth-details {
     line-height: 1.5em;
     margin-top: 1rem;
     text-align: center;

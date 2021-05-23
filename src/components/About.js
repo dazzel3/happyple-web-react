@@ -153,13 +153,29 @@ function About() {
                 </div>
                 <div className="sixth">
                     <div 
+                        data-aos="zoom-in-right"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        className="sixth-text">
+                        해피플이 제공하는<br/>다양한 형태의 굿즈.
+                    </div>
+                    <div 
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="sixth-details">
+                        비용은 적게
+                    </div>
+                </div>
+                <div className="seventh">
+                    <div 
                         data-aos="zoom-in-down"
                         data-aos-delay="200"
                         data-aos-duration="1000"
-                        className="sixth-text">
-                        해피플을 즐길 수 있는<br/>두가지 방법.
+                        className="seventh-text">
+                        해피플을 즐길 수 있는<br/><span>두가지 방법.</span>
                     </div>
-                    <div className="sixth-details">
+                    <div className="seventh-details">
                         <div
                             data-aos="fade-up"
                             data-aos-delay="500"
@@ -194,15 +210,15 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="seventh">
+                <div className="eighth">
                     <div 
                         data-aos="zoom-in-down"
                         data-aos-delay="200"
                         data-aos-duration="1000"
-                        className="seventh-text">
+                        className="eighth-text">
                         해피플을 만든 사람들.
                     </div>
-                    <div className="seventh-details">
+                    <div className="eighth-details">
                         <div 
                             data-aos="fade-up"
                             data-aos-delay="500"
