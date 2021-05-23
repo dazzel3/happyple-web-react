@@ -12,6 +12,8 @@ import dy from '../assets/dayeon.png'
 import media1 from '../assets/media1.GIF'
 import art1 from '../assets/art1.jpg'
 import art2 from '../assets/art2.jpg'
+import case1 from '../assets/case.png'
+
 
 function About() {
 
@@ -159,12 +161,32 @@ function About() {
                         className="sixth-text">
                         해피플이 제공하는<br/>다양한 형태의 굿즈.
                     </div>
-                    <div 
+                    {/* <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="sixth-details">
                         비용은 적게
+                    </div> */}
+                    <div className="goods-all">
+                        <img 
+                            data-aos="fade-up"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="case" src={case1} 
+                        />
+                        <img 
+                            data-aos="fade-up"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="griptok" src={case1} 
+                        />
+                        <img 
+                            data-aos="fade-up"
+                            data-aos-delay="1000"
+                            data-aos-duration="1000"
+                            className="keyring" src={case1} 
+                        />
                     </div>
                 </div>
                 <div className="seventh">
