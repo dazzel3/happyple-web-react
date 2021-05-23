@@ -134,17 +134,39 @@
     opacity: 60%;
 }
 
+.artsection1{
+    margin: 0 auto;
+}
+
+.art1{
+    z-index: 2;
+    position: relative;
+    top: 43vh;
+    left: 6vw;
+    width: 50vw;
+    /* box-shadow: -1.5px 1.5px 5px #000; */
+}
+
+.art2{
+    z-index: 1;
+    position: relative;
+    top: 10vh;
+    right: 6vw;
+    width: 30vw;
+    /* box-shadow: 1.5px -1.5px 5px #000; */
+}
+
 .second {
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
     text-align: center;
 }
 
 .second-text {
     color: rgb(34, 34, 34);
-    font-size: 7vh;
+    font-size: 7.3vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
     margin-top: 2rem;
@@ -164,7 +186,8 @@
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
-    margin-top: 1rem;
+    margin-top: 20rem;
+    margin-bottom: 10vh;
     text-align: center;
 }
 
@@ -173,28 +196,47 @@
     height: 20vh;
 }
 
-.about-emotion {
-    width: 25%;
+.about-media1 {
+    width: 42vw;
     height: auto;
-    margin-top: 2rem;
-    opacity: 50%;
+    margin-top: 10vh;
+    margin-left: 10vh;
 }
 
 .third {
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
 }
 
 .third-text {
     color: rgb(34, 34, 34);
-    font-size: 7vh;
+    font-size: 7.3vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 10vh;
     margin-left: 2rem;
     line-height: 1.3em;
+}
+
+.third-text>span {
+    color: #fff;
+    background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+   to {
+      background-position: 200% center;
+   }
 }
 
 .third-details {
@@ -203,8 +245,9 @@
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 600;
     line-height: 1.5em;
-    margin-top: 1rem;
-    margin-left: 2rem;
+    margin-top: 6vh;
+    margin-left: 10vh;
+    margin-bottom: 10vh;
 }
 
 .about-lang {
@@ -219,7 +262,7 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
 }
 
 .fourth-text {
@@ -246,7 +289,7 @@
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
 }
 
 .fifth-text {
@@ -273,7 +316,7 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
 }
 
 .sixth-text {
@@ -315,7 +358,7 @@
     background-color: rgb(250, 250, 250);
     padding: 5%;
     width: auto;
-    height: 100vh;
+    height: fit-content;
 }
 
 .seventh-text {
