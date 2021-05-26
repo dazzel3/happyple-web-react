@@ -13,6 +13,7 @@ import media1 from '../assets/media1.GIF'
 import art1 from '../assets/art1.jpg'
 import art2 from '../assets/art2.jpg'
 import case1 from '../assets/case.png'
+import drawing from '../assets/drawing.gif'
 
 
 function About() {
@@ -35,11 +36,6 @@ function About() {
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="about-logo" src={logo} />
-                    {/* <img 
-                        data-aos="fade-left"
-                        data-aos-delay="1000"
-                        data-aos-duration="1000"
-                        className="about-kid" src={kid} /> */}
                     <div
                         data-aos="fade-right"
                         data-aos-delay="1000"
@@ -62,23 +58,17 @@ function About() {
                         화면 속의 예술,<br />
                         <span>미디어아트</span>를 웹에서 즐겨보세요.
                     </div>
-                    <div 
-                        // data-aos="fade-up"
-                        // data-aos-delay="1000"
-                        // data-aos-duration="1000"
-                        className="artsection1">
+                    <div className="artsection1">
                         <img 
                             data-aos="fade-right"
                             data-aos-delay="1000"
                             data-aos-duration="1000"
-                            className="art1" src={art1} 
-                        />
+                            className="art1" src={art1}/>
                         <img 
                             data-aos="fade-left"
                             data-aos-delay="1000"
                             data-aos-duration="1000"
-                            className="art2" src={art2} 
-                        />
+                            className="art2" src={art2}/>
                     </div>
                     <div 
                         data-aos="fade-up"
@@ -87,8 +77,7 @@ function About() {
                         className="second-details">
                         코로나19로 인해 가지 못했던 미디어아트 전시회를 해피플에서 경험해보세요. <br />
                         오프라인 전시회와 또 다른 매력을 느낄 수 있을거에요.
-                    </div>
-                    
+                    </div>   
                 </div>
                 <div className="third">
                     <div 
@@ -121,6 +110,11 @@ function About() {
                         className="fourth-text">
                         나만의 감성으로 전시의 여운을 남겨보세요.
                     </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-media1" src={drawing} />
                     <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
@@ -130,11 +124,6 @@ function About() {
                         전시회에서 얻은 이미지를 SNS에 기록해봐요. <br />
                         전시를 추억하고 싶다면, shop을 방문해 굿즈를 구매하세요.
                     </div>
-                    <img 
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="about-lang" src={media1} />
                 </div>
                 <div className="fifth">
                     <div 
@@ -142,16 +131,27 @@ function About() {
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         className="fifth-text">
-                        물론 미디어아트를 직접 전시하는 것도 가능하죠.
+                        물론<br/>미디어아트를<br/>직접 전시하는 것도<br/>가능하죠.
                     </div>
                     <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="fifth-details">
-                        비용은 적게, 시간과 장소의 제한 없이 전시회를 열어보세요. <br />
-                        오직 해피플에서만 가능합니다. 궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
+                        className="fifth-text">
+                        비용은 적게,<br/>시간과 장소의<br/>제한 없이전시회를 열어보세요.
                     </div>
+                    <div 
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="fifth-text">
+                        <span>오직 해피플</span>에서만 가능합니다. <br/>궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
+                    </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-media1" src={media1} />
                 </div>
                 <div className="sixth">
                     <div 
@@ -161,32 +161,22 @@ function About() {
                         className="sixth-text">
                         해피플이 제공하는<br/>다양한 형태의 굿즈.
                     </div>
-                    {/* <div 
-                        data-aos="fade-right"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="sixth-details">
-                        비용은 적게
-                    </div> */}
                     <div className="goods-all">
                         <img 
                             data-aos="fade-up"
                             data-aos-delay="1000"
                             data-aos-duration="1000"
-                            className="case" src={case1} 
-                        />
+                            className="case" src={case1}/>
                         <img 
                             data-aos="fade-up"
                             data-aos-delay="1000"
                             data-aos-duration="1000"
-                            className="griptok" src={case1} 
-                        />
+                            className="griptok" src={case1}/>
                         <img 
                             data-aos="fade-up"
                             data-aos-delay="1000"
                             data-aos-duration="1000"
-                            className="keyring" src={case1} 
-                        />
+                            className="keyring" src={case1}/>
                     </div>
                 </div>
                 <div className="seventh">
