@@ -294,7 +294,7 @@
 
 .fifth-text {
     color: rgb(34, 34, 34);
-    font-size: 7vh;
+    font-size: 9vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
     margin-top: 2rem;
@@ -302,35 +302,40 @@
     line-height: 1.3em;
 }
 
-.fifth-details {
-    font-size: 4vh;
-    color: rgb(129, 129, 129);
-    font-family: "Noto Sans KR", sans-serif;
-    font-weight: 600;
-    line-height: 1.5em;
-    margin-top: 1rem;
-    margin-left: 2rem;
+.fifth-text-big {
+    margin-top: 10vh;
+    text-align: right;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 2rem;
 }
 
-.fifth-text>span {
+.fifth-details {
+    color: rgb(34, 34, 34);
+    font-size: 7.7vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 34vh;
+    margin-left: 2rem;
+    line-height: 1.3em;
+}
+
+.fifth-details>span {
     position: relative;
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  background-size: 120% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -ms-background-clip: text;
-  -ms-text-fill-color: transparent;
-  background-clip: text;
-  background-image: linear-gradient(45deg, 
-                    #7794ff, 
-                    #44107A,
-                    #FF1361,
-                    #FFF800);
-  animation: 1s shake infinite alternate;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #7794ff, #44107A,#FF1361,#FFF800);
+    animation: 1s shake infinite alternate;
 }
 
 @keyframes shake {

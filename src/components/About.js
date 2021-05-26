@@ -128,24 +128,24 @@ function About() {
                 <div className="fifth">
                     <div 
                         data-aos="zoom-in-right"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
+                        data-aos-delay="2000"
+                        data-aos-duration="500"
                         className="fifth-text">
                         물론<br/>미디어아트를<br/>직접 전시하는 것도<br/>가능하죠.
                     </div>
                     <div 
                         data-aos="fade-right"
-                        data-aos-delay="500"
-                        data-aos-duration="1000"
-                        className="fifth-text">
-                        비용은 적게,<br/>시간과 장소의<br/>제한 없이전시회를 열어보세요.
+                        data-aos-delay="2000"
+                        data-aos-duration="500"
+                        className="fifth-text fifth-text-big">
+                        비용은 적게,<br/>시간과 장소의 제한 없이<br/>전시회를 열어보세요.
                     </div>
                     <div 
                         data-aos="fade-right"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="fifth-text">
-                        <span>오직 해피플</span>에서만 가능합니다. <br/>궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
+                        className="fifth-details">
+                        <span>오직 <b>해피플</b>에서만 가능합니다.</span> <br/>궁금하다면 상단의 의뢰하기 버튼을 클릭해보세요.
                     </div>
                     <img 
                         data-aos="fade-up"
