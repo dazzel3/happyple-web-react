@@ -16,6 +16,7 @@ import case1 from '../assets/case.png'
 import drawing from '../assets/drawing.gif'
 
 
+
 function About() {
 
     AOS.init();
@@ -108,7 +109,16 @@ function About() {
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         className="fourth-text">
-                        나만의 감성으로 전시의 여운을 남겨보세요.
+                        전시의 여운을 남길 다양한 방법을 제공합니다.
+                    </div>
+                    <div 
+                        data-aos="fade-right"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="fourth-text">
+                        예를 들면 이런 것.<br/>
+                        첫번째,<br/>
+                        3d카드를 통해 전시를 기억하기.
                     </div>
                     <img 
                         data-aos="fade-up"
@@ -119,11 +129,15 @@ function About() {
                         data-aos="fade-right"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="fourth-details">
-                        오프라인 전시회에서 사진을 찍듯이 해피플 전시회에서는 나만의 이미지를 만들 수 있어요. <br />
-                        전시회에서 얻은 이미지를 SNS에 기록해봐요. <br />
-                        전시를 추억하고 싶다면, shop을 방문해 굿즈를 구매하세요.
+                        className="fourth-text">
+                        두번째,<br/>
+                        그림판을 꾸며서 이미지로 저장하기.
                     </div>
+                    <img 
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        className="about-media1" src={drawing} />
                 </div>
                 <div className="fifth">
                     <div 
