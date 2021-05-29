@@ -5,8 +5,6 @@ import '../css/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from '../assets/logo_white.png'
-import lang from '../assets/lang_black.png'
-import emotion from '../assets/emo.png'
 import sr from '../assets/seryoung.png'
 import dy from '../assets/dayeon.png'
 import media1 from '../assets/media1.GIF'
@@ -83,7 +81,7 @@ function About() {
                 <div className="third">
                     <div 
                         data-aos="zoom-in-right"
-                        data-aos-delay="100"
+                        data-aos-delay="700"
                         data-aos-duration="1000"
                         className="third-text">
                         보기만 하는 전시가 아닌, <br />
@@ -91,7 +89,7 @@ function About() {
                     </div>
                     <img 
                         data-aos="fade-up"
-                        data-aos-delay="500"
+                        data-aos-delay="1000"
                         data-aos-duration="1000"
                         className="about-media1" src={media1} />
                     <div 
@@ -106,14 +104,14 @@ function About() {
                 <div className="fourth">
                     <div 
                         data-aos="zoom-in-right"
-                        data-aos-delay="100"
+                        data-aos-delay="800"
                         data-aos-duration="1000"
                         className="fourth-text">
                         전시의 여운을 남길 다양한 방법을 제공합니다.
                     </div>
                     <div 
                         data-aos="fade-right"
-                        data-aos-delay="500"
+                        data-aos-delay="1200"
                         data-aos-duration="1000"
                         className="fourth-text">
                         예를 들면 이런 것.<br/>
@@ -122,12 +120,12 @@ function About() {
                     </div>
                     <img 
                         data-aos="fade-up"
-                        data-aos-delay="500"
+                        data-aos-delay="1200"
                         data-aos-duration="1000"
                         className="about-media1" src={drawing} />
                     <div 
                         data-aos="fade-right"
-                        data-aos-delay="500"
+                        data-aos-delay="1200"
                         data-aos-duration="1000"
                         className="fourth-text">
                         두번째,<br/>
@@ -135,22 +133,22 @@ function About() {
                     </div>
                     <img 
                         data-aos="fade-up"
-                        data-aos-delay="500"
+                        data-aos-delay="1200"
                         data-aos-duration="1000"
                         className="about-media1" src={drawing} />
                 </div>
                 <div className="fifth">
                     <div 
                         data-aos="zoom-in-right"
-                        data-aos-delay="2000"
-                        data-aos-duration="500"
+                        data-aos-delay="1000"
+                        data-aos-duration="1000"
                         className="fifth-text">
                         물론<br/>미디어아트를<br/>직접 전시하는 것도<br/>가능하죠.
                     </div>
                     <div 
                         data-aos="fade-right"
-                        data-aos-delay="2000"
-                        data-aos-duration="500"
+                        data-aos-delay="1000"
+                        data-aos-duration="1000"
                         className="fifth-text fifth-text-big">
                         비용은 적게,<br/>시간과 장소의 제한 없이<br/>전시회를 열어보세요.
                     </div>
@@ -170,7 +168,7 @@ function About() {
                 <div className="sixth">
                     <div 
                         data-aos="zoom-in-right"
-                        data-aos-delay="100"
+                        data-aos-delay="500"
                         data-aos-duration="1000"
                         className="sixth-text">
                         해피플이 제공하는<br/>다양한 형태의 굿즈.
@@ -178,17 +176,17 @@ function About() {
                     <div className="goods-all">
                         <img 
                             data-aos="fade-up"
-                            data-aos-delay="1000"
+                            data-aos-delay="800"
                             data-aos-duration="1000"
                             className="case" src={case1}/>
                         <img 
                             data-aos="fade-up"
-                            data-aos-delay="1000"
+                            data-aos-delay="800"
                             data-aos-duration="1000"
                             className="griptok" src={case1}/>
                         <img 
                             data-aos="fade-up"
-                            data-aos-delay="1000"
+                            data-aos-delay="800"
                             data-aos-duration="1000"
                             className="keyring" src={case1}/>
                     </div>
@@ -196,7 +194,7 @@ function About() {
                 <div className="seventh">
                     <div 
                         data-aos="zoom-in-down"
-                        data-aos-delay="200"
+                        data-aos-delay="500"
                         data-aos-duration="1000"
                         className="seventh-text">
                         해피플을 즐길 수 있는<br/><span>두가지 방법.</span>
@@ -204,7 +202,7 @@ function About() {
                     <div className="seventh-details">
                         <div
                             data-aos="fade-up"
-                            data-aos-delay="500"
+                            data-aos-delay="800"
                             data-aos-duration="1000"
                             className="about-intro">
                             <div className="way">
@@ -239,7 +237,7 @@ function About() {
                 <div className="eighth">
                     <div 
                         data-aos="zoom-in-down"
-                        data-aos-delay="200"
+                        data-aos-delay="500"
                         data-aos-duration="1000"
                         className="eighth-text">
                         해피플을 만든 사람들.
@@ -247,7 +245,7 @@ function About() {
                     <div className="eighth-details">
                         <div 
                             data-aos="fade-up"
-                            data-aos-delay="500"
+                            data-aos-delay="800"
                             data-aos-duration="1000"
                             className="about-intro">
                             <img className="about-img" src={sr} />
