@@ -22,6 +22,7 @@ import Popup3 from "./contents/Select/Popup3";
 import Popup4 from "./contents/Select/Popup4";
 import next from "../assets/next.png";
 
+
 function TimeSlip() {
     const [volume, setVolume] = useState(1);
     const [mnumber, setMNumber] = useState(1);
@@ -938,6 +939,26 @@ function TimeSlip() {
                     data-aos-delay="1000"
                     data-aos-duration="500">
                     <Draw></Draw>
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="contentWrap active">
+                    <div className="front">
+                        <div className="kiki"></div>
+                        <div className="sun"></div>
+                        <div className="cloud1"></div>
+                        <div className="cloud2"></div>
+                        <div className="m1"></div>
+                        <div className="m2"></div>
+                        <div className="snow"></div>
+                        <div className="m3"></div>
+                        <div className="cow"></div>
+                    </div>
+            
+                    <div className="back">
+                        <p className="msg">흔했던 일상이 그리운 요즘...<br/>우리 모두 끝까지 힘내자!</p>
+                        <h3>from. timeSlip</h3>
+                    </div>
                 </div>
             </div>
             <Guest></Guest>
