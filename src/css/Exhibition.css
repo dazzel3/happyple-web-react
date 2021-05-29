@@ -40,7 +40,6 @@
 }
 
 .ex-dropdown {
-    z-index: 2;
     float: right;
     position: relative;
     margin-right: 8vw;
@@ -100,7 +99,6 @@
 
 .wrapper {
     position: relative;
-    z-index: 1;
     display: flex;
     width: 88%;
     height: fit-content;
