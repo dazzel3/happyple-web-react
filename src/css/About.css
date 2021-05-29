@@ -267,22 +267,69 @@
 
 .fourth-text {
     color: rgb(34, 34, 34);
-    font-size: 7vh;
+    font-size: 8vh;
     font-family: "Noto Sans KR", sans-serif;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+
+.fourth-text-ex {
+    color: rgb(34, 34, 34);
+    font-size: 8vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+.fourth-text-ex>span:nth-child(2) {
+    color: rgb(80, 80, 80);
+}
+
+.fourth-text-ex>span:nth-child(3) {
+    color: rgb(153, 153, 153);
+}
+
+.fourth-text-ex>span:nth-child(4) {
+    color: rgb(212, 212, 212);
+}
+
+.fourth-text-ex>span:nth-child(5) {
+    color: rgb(238, 238, 238);
+}
+
+.fourth-one {
+    color: rgb(34, 34, 34);
+    font-size: 7.3vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
     margin-left: 2rem;
     line-height: 1.3em;
 }
 
-.fourth-details {
-    font-size: 4vh;
-    color: rgb(129, 129, 129);
+.fourth-one> span {
+    background: linear-gradient(to right,#27bbff, #3e00ce);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fourth-two {
+    color: rgb(34, 34, 34);
+    font-size: 7.3vh;
     font-family: "Noto Sans KR", sans-serif;
-    font-weight: 600;
-    line-height: 1.5em;
-    margin-top: 1rem;
-    margin-left: 2rem;
+    font-weight: 700;
+    margin-top: 10vh;
+    margin-right: 2rem;
+    line-height: 1.3em;
+    text-align: right;
+}
+
+.fourth-two> span {
+    background: linear-gradient(to right,#27bbff, #3e00ce);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fifth {

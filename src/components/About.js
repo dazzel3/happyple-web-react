@@ -103,20 +103,30 @@ function About() {
                 </div>
                 <div className="fourth">
                     <div 
-                        data-aos="zoom-in-right"
+                        data-aos="zoom-in"
                         data-aos-delay="800"
                         data-aos-duration="1000"
                         className="fourth-text">
                         전시의 여운을 남길 다양한 방법을 제공합니다.
                     </div>
                     <div 
+                        data-aos="fade-up"
+                        data-aos-delay="800"
+                        data-aos-duration="1000"
+                        className="fourth-text-ex">
+                        <span>예를 들면 이런 것.<br/></span>
+                        <span>예를 들면 이런 것.<br/></span>
+                        <span>예를 들면 이런 것.<br/></span>
+                        <span>예를 들면 이런 것.<br/></span>
+                        <span>예를 들면 이런 것.</span>
+                    </div>
+                    <div 
                         data-aos="fade-right"
                         data-aos-delay="1200"
                         data-aos-duration="1000"
-                        className="fourth-text">
-                        예를 들면 이런 것.<br/>
+                        className="fourth-one">
                         첫번째,<br/>
-                        3d카드를 통해 전시를 기억하기.
+                        <span>3D카드</span>를 통해 전시를 기억하기.
                     </div>
                     <img 
                         data-aos="fade-up"
@@ -124,12 +134,12 @@ function About() {
                         data-aos-duration="1000"
                         className="about-media1" src={drawing} />
                     <div 
-                        data-aos="fade-right"
+                        data-aos="fade-left"
                         data-aos-delay="1200"
                         data-aos-duration="1000"
-                        className="fourth-text">
+                        className="fourth-two">
                         두번째,<br/>
-                        그림판을 꾸며서 이미지로 저장하기.
+                        그림판을 꾸며서 <span>이미지</span>로 저장하기.
                     </div>
                     <img 
                         data-aos="fade-up"
@@ -153,7 +163,7 @@ function About() {
                         비용은 적게,<br/>시간과 장소의 제한 없이<br/>전시회를 열어보세요.
                     </div>
                     <div 
-                        data-aos="fade-right"
+                        data-aos="zoom-in"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="fifth-details">
@@ -167,7 +177,7 @@ function About() {
                 </div>
                 <div className="sixth">
                     <div 
-                        data-aos="zoom-in-right"
+                        data-aos="zoom-in"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="sixth-text">
@@ -236,7 +246,7 @@ function About() {
                 </div>
                 <div className="eighth">
                     <div 
-                        data-aos="zoom-in-down"
+                        data-aos="zoom-in-up"
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="eighth-text">
