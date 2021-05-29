@@ -1,3 +1,9 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -24,17 +30,19 @@
 }
 .modal > section > header {
     position: relative;
-    padding: 16px 64px 16px 16px;
+    padding: 2.8vh 0;
     background-color: #f1f1f1;
     font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;
 }
 .modal > section > header button {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 30px;
-    font-size: 21px;
-    font-weight: 700;
+    top: 3.1vh;
+    right: 3.1vh;
+    width: auto;
+    font-size: 2.2vh;
+    font-weight: 900;
+    font-family: "Noto Sans KR", sans-serif;
     text-align: center;
     color: #999;
     background-color: transparent;
@@ -49,11 +57,12 @@
     text-align: right;
 }
 .modal > section > footer button {
-    padding: 6px 12px;
+    padding: 1vh 3vh;
     color: #fff;
-    background-color: #6c757d;
-    border-radius: 5px;
-    font-size: 13px;
+    background-color: #5a5a5a;
+    border-radius: 1vh;
+    font-size: 2.1vh;
+    font-family: "Noto Sans KR", sans-serif;
 }
 .modal.openModal {
     display: flex;

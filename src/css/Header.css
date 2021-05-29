@@ -10,6 +10,12 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -116,4 +122,118 @@
 .request-btn:hover {
     color: #5a5a5a;
     border: solid 3px #5a5a5a;
+}
+
+.form-name {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.form-name input {
+    height: auto;
+    line-height: normal;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    width: 17.2vw;
+    margin-left: 1.5vh;
+    border: solid 1.2px #b6b6b6;
+}
+
+.form-email {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form-email input {
+    height: auto;
+    line-height: normal;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    width: 20.3vw;
+    margin-left: 1.5vh;
+    border: solid 1.2px #b6b6b6;
+}
+
+.form-tel {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form-tel input {
+    height: auto;
+    line-height: normal;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    width: 19.2vw;
+    margin-left: 1.5vh;
+    border: solid 1.2px #b6b6b6;
+}
+
+.form-number {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form-number input {
+    height: auto;
+    line-height: normal;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    width: 19vw;
+    margin-left: 1.5vh;
+    border: solid 1.2px #b6b6b6;
+}
+
+.form-sub {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-left: 2vh;
+}
+
+.form-sub textarea {
+    height: auto;
+    line-height: normal;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 12vh;
+    max-height: 12vh;
+    border: solid 1.2px #b6b6b6;
+    margin-top: 1vh;
+    margin-left: 0.7vh;
+}
+
+.form-text {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    text-align: left;
+    color: #5a5a5a;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+}
+
+.form-text>span {
+    color: rgb(26, 87, 201);
 }
