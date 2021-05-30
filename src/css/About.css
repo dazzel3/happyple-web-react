@@ -203,6 +203,31 @@
     margin-left: 10vh;
 }
 
+.about-drawing {
+    width: 50vw;
+    height: auto;
+    margin-top: 10vh;
+    margin-right: 7vh;
+    margin-bottom: 10vh;
+    float: right;
+}
+
+.about-card {
+    width: 50vw;
+    height: auto;
+    margin-top: 10vh;
+    margin-left: 7vh;
+    margin-bottom: 10vh;
+}
+
+.about-request {
+    width: 50vw;
+    height: auto;
+    margin-top: 10vh;
+    margin-left: 43vh;
+    margin-bottom: 7vh;
+}
+
 .third {
     background-color: rgb(243, 243, 243);
     padding: 5%;
@@ -262,7 +287,7 @@
     background-color: white;
     padding: 5%;
     width: auto;
-    height: fit-content;
+    height: 353vh;
 }
 
 .fourth-text {

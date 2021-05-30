@@ -12,8 +12,8 @@ import art1 from '../assets/art1.jpg'
 import art2 from '../assets/art2.jpg'
 import case1 from '../assets/case.png'
 import drawing from '../assets/drawing.gif'
-
-
+import request from '../assets/request.GIF'
+import card from '../assets/card.gif'
 
 function About() {
 
@@ -132,7 +132,7 @@ function About() {
                         data-aos="fade-up"
                         data-aos-delay="1200"
                         data-aos-duration="1000"
-                        className="about-media1" src={drawing} />
+                        className="about-card" src={card} />
                     <div 
                         data-aos="fade-left"
                         data-aos-delay="1200"
@@ -145,7 +145,7 @@ function About() {
                         data-aos="fade-up"
                         data-aos-delay="1200"
                         data-aos-duration="1000"
-                        className="about-media1" src={drawing} />
+                        className="about-drawing" src={drawing} />
                 </div>
                 <div className="fifth">
                     <div 
@@ -173,7 +173,7 @@ function About() {
                         data-aos="fade-up"
                         data-aos-delay="500"
                         data-aos-duration="1000"
-                        className="about-media1" src={media1} />
+                        className="about-request" src={request} />
                 </div>
                 <div className="sixth">
                     <div 
