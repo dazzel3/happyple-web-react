@@ -4,6 +4,7 @@ import '../css/Shop.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import case1 from '../assets/coming_soon.png'
+import { Link } from 'react-router-dom';
 
 function Shop() {
 
@@ -23,9 +24,9 @@ function Shop() {
                     </div>
                     <div className="shop-all">
                         <div className="shop-one">
-                            <a href="/Shop-purchase">
-                            <img className="shop-img" src={case1}/>
-                            </a>
+                            <Link to="/shop-purchase">
+                                <img className="shop-img" src={case1}/>
+                            </Link>
                             <div className="main-text">
                                 레트로 스티커 케이스 + rabbit그립톡
                             </div>
@@ -34,7 +35,9 @@ function Shop() {
                             </div>
                         </div>
                         <div className="shop-one">
-                            <img className="shop-img" src={case1}/>
+                            <Link to="/shop-purchase">
+                                <img className="shop-img" src={case1}/>
+                            </Link>
                             <div className="main-text">
                                 레트로 스티커 케이스
                             </div>
@@ -43,7 +46,9 @@ function Shop() {
                             </div>
                         </div>
                         <div className="shop-one">
-                            <img className="shop-img" src={case1}/>
+                            <Link to="/shop-purchase">
+                                <img className="shop-img" src={case1}/>
+                            </Link>
                             <div className="main-text">
                                 star그립톡
                             </div>
@@ -52,7 +57,9 @@ function Shop() {
                             </div>
                         </div>
                         <div className="shop-two">
-                            <img className="shop-img" src={case1}/>
+                            <Link to="/shop-purchase">
+                                <img className="shop-img" src={case1}/>
+                            </Link>
                             <div className="main-text">
                                 rabbit그립톡
                             </div>
@@ -61,7 +68,9 @@ function Shop() {
                             </div>
                         </div>
                         <div className="shop-two">
-                            <img className="shop-img" src={case1}/>
+                            <Link to="/shop-purchase">
+                                <img className="shop-img" src={case1}/>
+                            </Link>
                             <div className="main-text">
                                 바이러스 키링
                             </div>

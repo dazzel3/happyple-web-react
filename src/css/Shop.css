@@ -28,7 +28,7 @@
 .shop-text {
     color: rgb(34, 34, 34);
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'poppinsM';
 }
 
@@ -57,21 +57,23 @@
 }
 
 .shop-img{
-    width: 26.3vw;
+    width: 26vw;
 }
 
 .main-text {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 2.8vh;
     font-weight: 500;
     margin-top: 1.3vh;
+    margin-left: 1vh;
     color: rgb(34, 34, 34);
 }
 
 .price-text {
     text-align: left;
-    font-size: 1rem;
+    font-size: 2.4vh;
     font-weight: 400;
     margin-top: 0.3vh;
+    margin-left: 1vh;
     color: rgb(54, 54, 54);
 }
