@@ -181,7 +181,7 @@ function About() {
                         data-aos-delay="500"
                         data-aos-duration="1000"
                         className="sixth-text">
-                        해피플이 제공하는<br/>다양한 형태의 굿즈.
+                        전시회를 기억하고 싶은<br/>당신을 위한 굿즈.
                     </div>
                     <div className="goods-all">
                         <img 

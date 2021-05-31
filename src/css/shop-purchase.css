@@ -1,0 +1,47 @@
+.bs-all {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0c3fc;
+    background-image: linear-gradient(147deg, #e0c3fc 0%, #8ec5fc 74%);
+}
+
+.shop-purchase {
+    height: fit-content;
+    width: 100%;
+}
+
+.purchase-all {
+    margin-top: 2vh;
+    margin-bottom: 14vh;
+    width: 84%;
+    margin: 0 auto;
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.purchase-img{
+    width: 26.3vw;
+}
+
+.purchase-text-all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase-text-all-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.purchase-text-all-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vh;
+}

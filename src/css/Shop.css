@@ -14,14 +14,64 @@
 }
 
 .shop {
-    height: 88vh;
+    height: fit-content;
     width: 100%;
 }
 
+.shop1{
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 8.8vh;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
 .shop-text {
-    color: #5a5a5a;
-    font-size: 22px;
-    font-weight: 700;
+    color: rgb(34, 34, 34);
+    font-size: 1.5rem;
+    font-weight: 500;
     font-family: 'poppinsM';
-    margin: 2rem;
+}
+
+.shop-all{
+    margin-top: 2vh;
+    margin-bottom: 14vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-flow: row wrap; */
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.shop-one {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 1.3vh;
+}
+
+.shop-two {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 13vh;
+}
+
+.shop-img{
+    width: 26.3vw;
+}
+
+.main-text {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.3vh;
+    color: rgb(34, 34, 34);
+}
+
+.price-text {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.3vh;
+    color: rgb(54, 54, 54);
 }
