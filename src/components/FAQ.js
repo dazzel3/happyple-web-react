@@ -58,14 +58,14 @@ function FAQ() {
                             😄  맞아요. 인터넷 사용이 원활한 환경에서 누구나 해피플의 서비스를 이용할 수 있어요.
                         </div>
                     </div>
-                    <div 
+                    <a  href="mailto:happypleus.gmail.com"
                         data-aos="zoom-in"
                         data-aos-delay="50"
                         data-aos-duration="800"
                         data-aos-easing="ease-in-out" 
                         className="qna-button">
-                        질문하기
-                    </div>
+                        <a className="qna-text1">질문하기</a>
+                    </a>
                     
                 </div>
             </div>
