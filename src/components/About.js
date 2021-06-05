@@ -10,10 +10,12 @@ import dy from '../assets/dayeon.png'
 import media1 from '../assets/media1.GIF'
 import art1 from '../assets/art1.jpg'
 import art2 from '../assets/art2.jpg'
-import case1 from '../assets/case.png'
 import drawing from '../assets/drawing.gif'
 import request from '../assets/request.GIF'
 import card from '../assets/card.gif'
+import shop2 from '../assets/shop2.jpg';
+import shop4 from '../assets/shop4.jpg';
+import shop5 from '../assets/shop5.jpg';
 
 function About() {
 
@@ -188,17 +190,17 @@ function About() {
                             data-aos="fade-up"
                             data-aos-delay="800"
                             data-aos-duration="1000"
-                            className="case" src={case1}/>
+                            className="case" src={shop2}/>
                         <img 
                             data-aos="fade-up"
                             data-aos-delay="800"
                             data-aos-duration="1000"
-                            className="griptok" src={case1}/>
+                            className="griptok" src={shop4}/>
                         <img 
                             data-aos="fade-up"
                             data-aos-delay="800"
                             data-aos-duration="1000"
-                            className="keyring" src={case1}/>
+                            className="keyring" src={shop5}/>
                     </div>
                 </div>
                 <div className="seventh">

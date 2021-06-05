@@ -3,7 +3,7 @@ import Header from './Header';
 import '../css/shop-purchase.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import case1 from '../assets/coming_soon.png'
+import shop1 from '../assets/shop1.jpg';
 
 function Shoppurchase() {
 
@@ -16,7 +16,7 @@ function Shoppurchase() {
             <div className="shop-purchase">
                 <div className="purchase-all">
                     <div className="purchase-img">
-                        <img className="purchase-img1" src={case1}/>
+                        <img className="purchase-img1" src={shop1}/>
                     </div>
                     <div className="purchase-text-all">
                         <div className="purchase-text-all-1">
@@ -81,7 +81,7 @@ function Shoppurchase() {
                         </div>
                         <div className="purchase-btn">
                             <div className="purchase-btn-1">
-                                <p class="p">바로구매</p>
+                                <a href="http://naver.me/FS6s0x0T" target="_blank" class="p">바로구매</a>
                             </div>
                             <div className="purchase-btn-2">
                                 <p class="p">장바구니</p>

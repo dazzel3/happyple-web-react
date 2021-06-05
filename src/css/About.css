@@ -460,14 +460,23 @@
 
 .case{
     width: 13vw;
+    object-fit: cover;
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 .griptok{
     width: 13vw;
+    object-fit: cover;
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 .keyring{
     width: 13vw;
+    object-fit: cover;
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 .seventh {
