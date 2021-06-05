@@ -36,7 +36,7 @@ function Header() {
                     <div className="form-text">
                         *순차적으로 확인 후, 기재하신 이메일로 답변 드리겠습니다.<br/>
                         *의뢰가 성공적으로 접수되면, 해피플과 미팅 후 전시회를 꾸며나가면 됩니다.<br/>
-                        *추가 문의사항 <span>happypleus.gmail.com</span>
+                        *추가 문의사항 <a href="mailto:happypleus.gmail.com">happypleus.gmail.com</a>
                     </div>
                 </Modal>  
         </div>

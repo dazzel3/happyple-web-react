@@ -97,7 +97,16 @@
     cursor: pointer;
 }
 
+.qna-text1 {
+    color: #ffffff;
+}
+
 .qna-button:hover {
     background-color: #8ec5fc;
     color: rgb(255, 255, 255);
+}
+
+.qna-button:hover>a {
+    background-color: #8ec5fc;
+    color: rgb(0, 0, 0);
 }
