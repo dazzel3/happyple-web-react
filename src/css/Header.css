@@ -28,13 +28,6 @@
     z-index: 1;
 }
 
-.logo {
-    width: 135px;
-    height: fit-content;
-    margin-top: 2.3%;
-    margin-left: 2%;
-}
-
 .Menu {
     display: inline-flex;
     position: relative;
@@ -47,6 +40,8 @@
 .logo {
     width: 8.8vw;
     height: fit-content;
+    margin-top: 4.8vh;
+    margin-left: 4.4vh;
 }
 
 .MenuItem {
@@ -104,7 +99,7 @@
     -moz-appearance: none;
     appearance: none;
     font-family: 'SDSamliphopangche_Basic';
-    font-size: 15px;
+    font-size: 2.4vh;
     text-align: center;
     padding: 5px 15px;
     border: solid 3px white;

@@ -41,7 +41,7 @@
 }
 
 .bs {
-    height: 88vh;
+    min-height: 88vh;
     max-width: fit-content;
     width: 100%;
     display: flex;
@@ -58,7 +58,7 @@
     border-radius: 25px;
     height: 400px;
     transition: all 0.3s;
-    
+    margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 992px) {
