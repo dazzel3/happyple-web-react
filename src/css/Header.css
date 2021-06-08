@@ -28,15 +28,6 @@
     z-index: 1;
 }
 
-.Menu {
-    display: inline-flex;
-    position: relative;
-    overflow: hidden;
-    margin-top: 2.3%;
-    max-width: 100%;
-    padding: 0 20px;
-}
-
 .logo {
     width: 8.8vw;
     height: 4.7vh;
@@ -44,16 +35,24 @@
     margin-left: 4.4vh;
 }
 
+.Menu {
+    display: inline-flex;
+    position: relative;
+    margin-top: 4.8vh;
+    min-width: 34vw;
+    padding: 0 3vh;
+}
+
 .MenuItem {
     color: #fff;
-    padding: 10px;
+    padding: 1.7vh;
     text-decoration: none;
     transition: 0.3s;
-    margin: 0 6px;
+    margin: 0 1.2vh;
     z-index: 1;
     font-weight: 500;
     font-family: 'poppinsM';
-    font-size: 14px;
+    font-size: 2.4vh;
     position: relative;
 }
 
@@ -87,9 +86,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 4px;
+    height: 4vh;
     transition: 0.4s;
-    height: 5px;
     z-index: 1;
     border-radius: 8px 8px 0 0;
 }
