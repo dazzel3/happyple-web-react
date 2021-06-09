@@ -22,6 +22,7 @@
     width: 84%;
     margin: 0 auto;
     margin-top: 8.8vh;
+    margin-left: 8.7vw;
     font-family: "Noto Sans KR", sans-serif;
 }
 
@@ -33,13 +34,12 @@
 }
 
 .shop-all{
+    margin: 0 auto;
     margin-top: 2vh;
     margin-bottom: 14vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* flex-flow: row wrap; */
     text-align: center;
-    /* justify-content: space-between; */
 }
 
 .shop-one {
