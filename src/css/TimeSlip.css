@@ -1062,7 +1062,7 @@ a {
 
 .card-wrapper {
     width: 100%;
-    min-height: 100vh;
+    min-height: 200vh;
     background-color: #000;
 }
 
@@ -1074,7 +1074,7 @@ a {
     visibility: hidden;
     opacity: 0;
     animation: move 5s infinite linear alternate;
-    margin-top: 40vh;
+    margin-top: 100vh;
     margin-left: 70vh;
 }
   
