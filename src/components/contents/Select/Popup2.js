@@ -21,13 +21,13 @@ class PopupContent extends Component {
 
     render(){
         return(
-            <div className="dimmed_layer_wrapper">
-                <div className="full_layer">
-                    <div className="common_alert">
+            <div className="abc">
+                <div className="def">
+                    <div className="eee">
                         <div>
-                            <button type="button" className="popup-btn" onClick={this.props.onClose} >x</button>
+                            <button type="button" className="hijk" onClick={this.props.onClose} >x</button>
                         </div>
-                        <div className="select-result">{this.arr[this.state.value]}</div>
+                        <div className="lmn">{this.arr[this.state.value]}</div>
                     </div>
                 </div>
             </div>
@@ -73,10 +73,10 @@ class Popup extends Component {
  
     render(){
         return(
-            <div className="random-wrapper">
+            <div className="ert">
                 <div className="random-container">
                     <div type="button"
-                            id="random-btn"
+                            id="mmm"
                             onClick={this.openPopup}
                     >
                         
@@ -86,7 +86,7 @@ class Popup extends Component {
                             <PopupContent arr = {this.arr} value = {this.state.value} changeValue = {this.changeValue} onClose={this.closePopup}/>
                         </PopupDom>
                     }
-                    <img className="random-select" src={select}/>
+                    <img className="qqq" src={select}/>
                 </div>
             </div>
         );

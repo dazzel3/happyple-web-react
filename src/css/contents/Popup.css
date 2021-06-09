@@ -11,30 +11,23 @@
     font-style: normal;
 }
 
-.dimmed_layer_wrapper .full_layer {
-    overflow:hidden;
+.abc .def {
     position:fixed;
-    top:0;
+    top:3vh;
     right:0;
     bottom:0;
     left:0;
-    width:100%;
-    height:100%;
+    width:45.3vw;
+    height:29vh;
     z-index:100;
-    text-align:center;
-    white-space:nowrap;
-    font-size:0;
-    display:inline-block;
-    vertical-align:middle;
-    height:100%;
-    content:'';
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.common_alert{
-    z-index:2;
-    position:relative;
-    top:50%;
+.eee{
+    z-index:100;
+    position:fixed;
+    top:8.6vh;
+    left: 28vh;
     display:inline-block;
     vertical-align:middle;
     width: 18vw;
@@ -48,7 +41,7 @@
     
 }
 
-.select-result {
+.lmn {
     text-align:center;
     font-size: 3.8vh;
     font-weight: 600;
@@ -60,12 +53,12 @@
     border-right: dashed 2px rgb(172, 172, 172);
 }
 
-.random-wrapper {
+.ert {
     width: fit-content;
     height: fit-content;
 }
 
-#random-btn {
+#mmm {
     width: 2.4vw;
     height: 3vh;
     background-color: transparent;
@@ -76,7 +69,7 @@
     cursor: pointer;
 }
 
-.popup-btn {
+.hijk {
     width: 2.5vw;
     height: 5vh;
     background: transparent;
@@ -93,7 +86,7 @@
     padding-right: 0.5vh;
 }
 
-.random-select {
+.qqq {
     width: 2.7vw;
     height: auto;
 }
